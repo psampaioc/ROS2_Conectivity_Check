@@ -1,4 +1,4 @@
-# conectivity_check — Naval-Rex Edge Computing
+# ROS2 Conectivity Check
 
 Sistema ROS 2 (C++17, Jazzy) para monitoramento de **conectividade (L3/L4 via ICMP)** + **qualidade de sinal RSS (L1/L2: Wi-Fi, Celular, Genérico)** + **Speedtest sob demanda**.
 
@@ -36,7 +36,7 @@ noise_dbm: -95.0
 snr_db: 32.5
 link_quality: 78.0
 bitrate_mbps: 433.0
-ssid: "NavalRex_Edge"
+ssid: "MyNetwork_Edge"
 bssid: "aa:bb:cc:dd:ee:ff"
 frequency_mhz: 5180
 security: "WPA2"
@@ -200,4 +200,4 @@ Para adicionar novo tipo (ex: LoRa, Satélite):
 
 ## Licença
 
-Apache-2.0 — HAL (Consultoria & Engenharia) — Naval-Rex
+Apache-2.0

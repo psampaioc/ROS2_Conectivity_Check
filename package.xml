@@ -3,13 +3,13 @@
 <package format="3">
   <name>conectivity_check</name>
   <version>0.1.0</version>
-  <description>Sistema ROS 2 de verificação de conectividade (Ping ICMP) + RSS (Wi-Fi/Cellular/Generic) + Speedtest para Naval-Rex Edge Computing</description>
-  <maintainer email="hal@naval-rex.com">HAL</maintainer>
+  <description>ROS 2 connectivity check (ICMP ping) + RSS monitoring (Wi-Fi/Cellular/Generic) + Speedtest on demand</description>
+  <maintainer email="maintainer@example.com">ROS2 Connectivity Check Maintainers</maintainer>
   <license>Apache-2.0</license>
 
-  <url type="website">https://github.com/naval-rex/conectivity_check</url>
-  <url type="repository">https://github.com/naval-rex/conectivity_check</url>
-  <url type="bugtracker">https://github.com/naval-rex/conectivity_check/issues</url>
+  <url type="website">https://github.com/ros2-connectivity-check/ROS2_Conectivity_Check</url>
+  <url type="repository">https://github.com/ros2-connectivity-check/ROS2_Conectivity_Check</url>
+  <url type="bugtracker">https://github.com/ros2-connectivity-check/ROS2_Conectivity_Check/issues</url>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>rosidl_default_generators</buildtool_depend>

@@ -1,12 +1,11 @@
 # Spec Técnico: Sistema de Verificação de Conectividade + RSS ROS 2 (conectivity_check)
 
-**Projeto:** Naval-Rex — Edge Computing UAV/UGV  
-**Workspace:** `/home/psampaioc/Workspace/Naval-Rex/ros2_ws/src/conectivity_check`  
+**Projeto:** ROS2 Connectivity Check  
 **ROS 2 Distro:** Jazzy (Ubuntu 24.04)  
 **Build System:** ament_cmake (C++)  
 **Linguagem:** C++17  
-**Autor:** HAL (Consultoria & Engenharia)  
-**Data:** 2026-07-09  
+**Autor:** Open Source Contributors  
+**Data:** 2026-07-10  
 **Status:** **DRAFT — Aguardando Aprovação**
 
 ---
@@ -658,7 +657,7 @@ noise_dbm: -95.0
 snr_db: 32.5                      # SNR = rss - noise
 link_quality: 78.0                # 0-100%
 bitrate_mbps: 433.0
-ssid: "NavalRex_Edge"
+ssid: "MyNetwork_Edge"
 bssid: "aa:bb:cc:dd:ee:ff"
 frequency_mhz: 5180
 security: "WPA2"
@@ -866,5 +865,5 @@ group_add:
 ---
 
 **Fim do Spec C++ com RSS Real**  
-*HAL — Naval-Rex Edge Computing*  
-*2026-07-09*
+*Open Source Contributors*  
+*2026-07-10*
