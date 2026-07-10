@@ -1,0 +1,11 @@
+builtin_interfaces/Time stamp
+string server_name
+string server_country
+float64 latency_ms
+float64 download_mbps
+float64 upload_mbps
+float64 jitter_ms
+string client_ip
+string isp
+bool success
+string error_message

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>conectivity_check</name>
+  <version>0.1.0</version>
+  <description>Sistema ROS 2 de verificação de conectividade (Ping ICMP) + RSS (Wi-Fi/Cellular/Generic) + Speedtest para Naval-Rex Edge Computing</description>
+  <maintainer email="hal@naval-rex.com">HAL</maintainer>
+  <license>Apache-2.0</license>
+
+  <url type="website">https://github.com/naval-rex/conectivity_check</url>
+  <url type="repository">https://github.com/naval-rex/conectivity_check</url>
+  <url type="bugtracker">https://github.com/naval-rex/conectivity_check/issues</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <!-- ROS 2 Core -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>builtin_interfaces</depend>
+  <depend>rosidl_interface_packages</depend>
+  <depend>rclcpp_components</depend>
+  <depend>ament_index_cpp</depend>
+
+  <!-- RSS Providers - Build Dependencies -->
+  <build_depend>libnl-3-dev</build_depend>
+  <build_depend>libnl-genl-3-dev</build_depend>
+  <build_depend>modemmanager</build_depend>
+  <build_depend>libmm-glib-dev</build_depend>
+  <build_depend>yaml-cpp</build_depend>
+
+  <!-- RSS Providers - Runtime Dependencies -->
+  <exec_depend>libnl-3-200</exec_depend>
+  <exec_depend>libnl-genl-3-200</exec_depend>
+  <exec_depend>modemmanager</exec_depend>
+  <exec_depend>libmm-glib0</exec_depend>
+
+  <!-- Runtime Tools -->
+  <exec_depend>speedtest-cli</exec_depend>
+  <exec_depend>iproute2</exec_depend>
+  <exec_depend>iw</exec_depend>
+  <exec_depend>modemmanager</exec_depend>
+  <exec_depend>dbus</exec_depend>
+
+  <!-- Test Dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>gtest</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

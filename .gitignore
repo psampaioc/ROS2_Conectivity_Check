@@ -1,0 +1,80 @@
+# ROS 2 / C++ Build Artifacts
+build/
+install/
+log/
+*.o
+*.so
+*.so.*
+*.a
+*.a.*
+*.obj
+*.dll
+*.lib
+*.exp
+compile_commands.json
+conanbuildinfo.txt
+conaninfo.txt
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py.class
+.pytest_cache/
+.coverage
+.tox/
+venv/
+.env/
+
+# OS / IDE Metadata
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.cproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Security / Credentials
+.env
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.kdbx
+local_*.yaml
+local_*.yml
+secrets.yaml
+credentials.yaml
+*.token
+*.secret
+
+# ROS 2 Specific
+*.msg.md5
+*.srv.md5
+*.action.md5
+.testresults/
+Testing/
+
+# Coverage / Profiling
+*.gcno
+*.gcda
+*.gcov
+coverage/
+*.profdata
+*.profraw
+
+# Editor Temp Files
+*.orig
+*.rej
+*.bak
