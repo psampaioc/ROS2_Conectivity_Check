@@ -126,7 +126,81 @@ The `Write` tool **completely overwrites** file contents. For any modification t
 ### 3. Host Isolation — NEVER RUN SYSTEM COMMANDS ON HOST
 - ❌ `dpkg -l`, `apt-cache search`, `rm -rf` on host
 - ✅ All package checks, cache cleaning, builds inside container: `docker exec ros2_agent_dock_N bash -c "..."`
-- If new OS deps needed → modify `Dockerfile` → `docker build -t rosstudy_env:jazzy .` → restart container
+- If new OS deps needed → modify `Dockerfile` → `docker build -t rosstudy_env:jazzy .`
+
+---
+
+## 🤖 Automation Permissions (Permanent Agent Permissions)
+
+**These permissions are permanent and persistent across sessions. You do NOT need to ask for permission each time.**
+
+### ✅ ALWAYS ALLOWED (No Permission Required)
+| Action | Tool/Command | Notes |
+|--------|--------------|-------|
+| Build package | `colcon build --packages-select conectivity_check --symlink-install` | Inside container |
+| Run tests | `colcon test --packages-select conectivity_check` | Inside container |
+| View test results | `colcon test-result --verbose` | Inside container |
+| Git operations (status, diff, log, add, commit, push, branch, merge) | `git ...` | Standard git workflow |
+| Create/switch branches | `git checkout -b`, `git checkout` | Standard git workflow |
+| Create PR / push to origin | `git push origin <branch>` / `gh pr create` | Standard git workflow |
+| Create GitHub repo & push | `gh repo create <org>/<repo> --public --source=. --push` | One-time setup |
+| Read any file in workspace | `Read`, `cat`, `cat` | Read-only |
+| Search/grep codebase | `Grep`, `grep`, `rg` | Read-only |
+| List directory contents | `Glob`, `ls`, `find` | Read-only |
+| Run container commands | `docker exec ros2_agent_dock_* bash -c "..."` | Agent-owned containers only |
+| Create/manage agent containers | `docker run -d --rm --name ros2_agent_dock_N ...` | Dynamic naming |
+| Read Docker logs | `docker logs ros2_agent_dock_*` | Read-only |
+| Stop agent containers | `docker stop ros2_agent_dock_*` | Cleanup only |
+| Edit existing files | `Edit`, `sed` | Standard edits |
+| Create new files | `Write` (new files only) | New files only |
+| Search web for docs | `WebSearch`, `WebFetch` | Public docs only |
+
+### ⚠️ REQUIRES EXPLICIT PERMISSION (Ask First)
+| Action | Why |
+|--------|-----|
+| **Write/overwrite existing files** with `Write` tool | Destructive — use `Edit` instead |
+| **Delete files/directories** | Irreversible |
+| **Modify Dockerfile / rebuild base image** | Affects all containers, slow rebuild |
+| **Modify user's personal containers** (`rosstudy`, `rosstudyplus`) | User-owned, not agent-owned |
+| **Run commands on host system** (outside containers) | Breaks isolation |
+| **Delete/move user files outside workspace** | Out of scope |
+| **Create GitHub repos in user's personal namespace** | User namespace control |
+| **Push to user's personal repos without asking** | User controls their remotes |
+| **Install system packages on host** | Host isolation |
+| **Modify CLAUDE.md** (this file) | Project instructions — confirm changes |
+
+### 🐳 Docker Container Rules (Agent-Owned Only)
+- **Container naming**: `ros2_agent_dock_<N>` (dynamic N, detached mode)
+- **Startup**: `xhost +local:root` → `docker run -d --rm --name ros2_agent_dock_<N> --net=host --ipc=host --pid=host -v /tmp/.X11-unix:/tmp/.X11-unix -v /home/psampaioc/Workspace:/workspace -w /workspace rosstudy_env:jazzy sleep infinity`
+- **Exec**: `docker exec --workdir="/workspace" ros2_agent_dock_<N> bash -c "<COMMANDS>"`
+- **Teardown**: `docker stop ros2_agent_dock_<N>` + verify `docker ps` shows no `ros2_agent_dock_*`
+- **Dockerfile changes ONLY** for new OS deps → rebuild with `docker build -t rosstudy_env:jazzy .`
+- **NEVER** touch user's `rosstudy` / `rosstudyplus` containers or aliases
+
+### 📦 Git/GitHub Workflow
+1. Work on feature branches (`git checkout -b feature/xyz`)
+2. Commit with conventional commits (`feat:`, `fix:`, `docs:`, `refactor:`, `test:`, `chore:`)
+3. Push to origin (`git push origin feature/xyz`)
+4. Create PR (`gh pr create --title "..." --body "..."`)
+5. After review/merge, delete branch locally and remotely
+6. **Main branch protection**: Push directly to main only for docs/chore; features via PR
+
+### 📝 Commit Message Convention
+```
+<type>(<scope>): <subject>
+
+<body>
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+```
+Types: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, `perf`, `ci`, `build`
+
+### 📋 GitHub Repo (Canonical)
+- **Organization**: `ros2-connectivity-check`
+- **Repository**: `ROS2_Conectivity_Check`
+- **URL**: `https://github.com/ros2-connectivity-check/ROS2_Conectivity_Check`
+
+--- → restart container
 
 ### 4. Include Paths for System Libraries
 Root-level `include_directories()` does **not** propagate to `add_subdirectory` targets.
@@ -182,3 +256,94 @@ Add `target_include_directories` to remaining subdirectories:
 ## Skills Registered
 - `ros2-docker`: Autonomous Docker container management for build/test
 - `audit_ros2_cmake`: Scans CMakeLists.txt for `${PROJECT_NAME}` in `ament_target_dependencies`
+
+---
+
+## ROS 2 Best Practices, Errors & Gotchas (Learned 2026-07-10)
+
+### 1. Component Registration — `RCLCPP_COMPONENTS_REGISTER_NODE` MUST Be Outside Namespace
+**Fatal Error:** If you place `RCLCPP_COMPONENTS_REGISTER_NODE(MyNode)` inside the `namespace my_pkg { ... }`, the `class_loader` symbols get mangled (prefixed with `my_pkg::`). This causes linker errors like:
+```
+undefined reference to `my_pkg::class_loader::impl::getPluginBaseToFactoryMapMapMutex()'
+undefined reference to `my_pkg::console_bridge::log(...)
+```
+
+**Correct Pattern:**
+```cpp
+namespace my_pkg {
+class MyNode : public rclcpp::Node { ... };
+}  // namespace my_pkg
+
+#include "rclcpp_components/register_node_macro.hpp"
+RCLCPP_COMPONENTS_REGISTER_NODE(my_pkg::MyNode)  // OUTSIDE namespace
+```
+
+### 2. Component Node Constructors Require `NodeOptions`
+For a node to be loadable as a ROS 2 component (via `ros2 component load` or `composition`), the constructor **must** accept `const rclcpp::NodeOptions& options` and forward it to the base:
+```cpp
+class MyNode : public rclcpp::Node {
+public:
+  explicit MyNode(const rclcpp::NodeOptions& options = rclcpp::NodeOptions())
+  : Node("my_node", options) { ... }
+};
+```
+Without this, the component factory cannot instantiate the node.
+
+### 3. Security: Never Hardcode Local Filesystem Paths
+**Anti-pattern:**
+```cpp
+config_file = std::string(getenv("HOME")) + "/Workspace/Naval-Rex/ros2_ws/src/conectivity_check/config/connectivity.yaml";
+```
+This leaks local username, project structure, and absolute paths — unacceptable for public repos.
+
+**Correct Pattern — Use `ament_index_cpp`:**
+```cpp
+#include <ament_index_cpp/get_package_share_directory.hpp>
+
+std::string pkg_share = ament_index_cpp::get_package_share_directory("conectivity_check");
+std::string config_file = pkg_share + "/config/connectivity.yaml";
+```
+Add dependency: `find_package(ament_index_cpp REQUIRED)` in CMakeLists.txt, `<depend>ament_index_cpp</depend>` in package.xml.
+
+### 4. cpplint Include Order Rules (ROS 2 Enforced)
+The linter enforces strict ordering in `.cpp` files:
+1. **C system headers** (e.g., `<arpa/inet.h>`, `<sys/socket.h>`)
+2. **C++ system headers** (e.g., `<chrono>`, `<string>`, `<vector>`)
+3. **Other libraries' headers** (e.g., `<rclcpp/rclcpp.hpp>`, `<yaml-cpp/yaml.h>`)
+4. **Your project's headers** (e.g., `"conectivity_check/my_header.hpp"`)
+
+Within each group, sort alphabetically. Headers (`.hpp`) follow: project headers first, then system.
+
+### 5. Same-Package Message Dependencies — Use `rosidl_target_interfaces`
+**NEVER** do this:
+```cmake
+ament_target_dependencies(my_node rclcpp ${PROJECT_NAME})
+```
+**ALWAYS** do this:
+```cmake
+ament_target_dependencies(my_node rclcpp std_msgs builtin_interfaces)
+rosidl_target_interfaces(my_node ${PROJECT_NAME} "rosidl_typesupport_cpp")
+```
+Applies to ALL targets: executables, components, tests.
+
+### 6. `find_package` Per Subdirectory
+If a subdirectory's target uses `rclcpp_components` (or any non-root `find_package`), that subdirectory's `CMakeLists.txt` MUST call `find_package(rclcpp_components REQUIRED)` before `ament_target_dependencies`.
+
+### 7. Include Paths Don't Propagate from Root
+Root-level `include_directories()` does NOT propagate to `add_subdirectory` targets. Each subdirectory's `CMakeLists.txt` must call:
+```cmake
+target_include_directories(my_target PRIVATE ${LIBNL_INCLUDE_DIRS} ${MODEM_MANAGER_INCLUDE_DIRS})
+```
+
+### 8. `Write` Tool Truncates Existing Files
+The `Write` tool **completely overwrites** file contents. For modifications to existing files:
+- Use `Edit` tool (preferred)
+- Use `sed` / bash commands
+- Use `Read` → `Edit` workflow
+
+### 9. Host Isolation — Never Run System Commands on Host
+All package checks, builds, tests run inside the agent Docker container:
+```bash
+docker exec --workdir="/workspace" ros2_agent_dock_N bash -c "colcon build ..."
+```
+Only modify `Dockerfile` for new OS dependencies, then rebuild the image.

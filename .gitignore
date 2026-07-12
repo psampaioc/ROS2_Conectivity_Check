@@ -78,3 +78,6 @@ coverage/
 *.orig
 *.rej
 *.bak
+# Agent Configuration (Claude Code)
+.claude/
+CLAUDE.md
