@@ -188,29 +188,37 @@ install/conectivity_check/
 
 ---
 
-## 3. CONECTIVITY_CHECK PROJECT ARCHITECTURE
+### 3.2 Message Definitions (The Contracts)
+## 3. CONETIVY_CHECK PROJECT ARCHITECTURE
 
-### 3.1 High-Level Design: 4 Independent Nodes
+### 3.1 High-Level Design: 3 Independent Nodes (KISS Architecture)
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│                    CONECTIVITY_CHECK STACK                       │
-├─────────────────┬─────────────────┬─────────────────┬────────────┤
-│  ping_checker   │   rss_monitor   │ connectivity_   │ speedtest_ │
-│  (L3/L4 ICMP)   │  (L1/L2 RSS)    │    monitor      │   server   │
-│                 │                 │  (Aggregator)   │ (On-Demand)│
-├─────────────────┼─────────────────┼─────────────────┼────────────┤
-│ Raw ICMP socket │ nl80211 netlink │ Subscribes to   │ speedtest- │
-│ CAP_NET_RAW     │ ModemManager    │ ping + RSS      │ cli / iperf│
-│ Multi-target    │ sysfs generic   │ Unified summary │ Service    │
-└────────┬────────┴────────┬────────┴────────┬────────┴─────┬───────┘
-         │                │                 │              │
-         ▼                ▼                 ▼              ▼
-    /ping/<label>   /rss/<iface>      /summary      /speedtest (srv)
+│                    CONETIVY_CHECK STACK (KISS)                   │
+├─────────────────┬─────────────────┬──────────────────────────────┤
+│  ping_checker   │   rss_monitor   │      connectivity_monitor    │
+│  (L3/L4 ICMP)   │  (L1/L2 RSS)    │      (Aggregator)            │
+├─────────────────┼─────────────────┼──────────────────────────────┤
+│ Raw ICMP socket │ nl80211 netlink │ Subscribes to ping + RSS     │
+│ CAP_NET_RAW     │ (direct, no     │ Single-line human summary    │
+│ Multi-target    │  provider factory)                          │
+└────────┬────────┴────────┬────────┴──────────────┬──────────────┘
+         │                │                       │
+         ▼                ▼                       ▼
+    /ping/<label>   /rss/<iface>             /summary (1 line!)
     /ping/summary   /rss/summary
 ```
 
 **Key Principle:** Nodes are **independent**. You can run just `rss_monitor` without `ping_checker`. They communicate only via ROS 2 topics.
+
+**Architecture Decision (2026-07-15):** Hard reset from complex provider factory to KISS netlink:
+- ❌ Removed: Cellular/ModemManager/AT/QMI providers (not testable in container)
+- ❌ Removed: Generic sysfs provider abstraction
+- ❌ Removed: Provider factory pattern
+- ✅ Kept: Direct nl80211 netlink in single rss_monitor.cpp
+- ✅ Kept: Single WiFi interface from YAML (default `wlp3s0`)
+- ✅ Kept: Ethernet carrier detection via carrier_only (works everywhere)
 
 ### 3.2 Message Definitions (The Contracts)
 
@@ -226,35 +234,16 @@ All custom messages in `msg/`:
 | `ConnectivitySummary.msg` | **Unified view** | `worst_ping_rtt_ms`, `worst_ping_label`, `ping_all_reachable`, `ping_reachable_count`, `ping_total_count`, `best_rss_dbm`, `worst_rss_dbm`, `best_interface`, `worst_interface`, `active_interfaces`, `any_wifi`, `any_cellular`, `overall_healthy`, **`human_readable_summary`** |
 
 **Critical Design Decision:** `rss_dbm` is **absolute dBm** (e.g., -62.5), NOT percentage. This enables cross-technology comparison (WiFi -65 vs Cellular -95).
+**No code changes needed to add interfaces** — just edit YAML.
 
-### 3.3 Polymorphic RSS Provider Factory (The Crown Jewel)
+---
 
-```
-RssProvider (abstract base)
-    │
-    ├── create(type, method) → unique_ptr<RssProvider>
-    │
-    ├── WifiRssProviderNl80211     ← libnl native (fastest, needs CAP_NET_ADMIN)
-    ├── WifiRssProviderIw          ← `iw` subprocess (fallback)
-    ├── WifiRssProviderProc        ← /proc/net/wireless (legacy)
-    ├── CellularRssProviderModemManager ← ModemManager DBus
-    ├── CellularRssProviderAt      ← AT commands on /dev/ttyUSB*
-    ├── CellularRssProviderQmi     ← QMI protocol
-    ├── GenericRssProviderSysfs    ← /sys/class/net/<iface>/statistics
-    └── EthernetRssProviderCarrier ← carrier up/down only
-```
-
-**Why this matters:** You configure interfaces in YAML, the factory picks the right implementation. Adding a new provider (e.g., Starlink) = one new class + one factory case.
-
-### 3.4 Configuration-Driven (`config/connectivity.yaml`)
+### 3.3 Configuration-Driven (`config/connectivity.yaml`) — KISS Format
 
 ```yaml
 # ============================================
-# CONNECTIVITY CHECK - CENTRAL CONFIGURATION
+# CONETIVY_CHECK - KISS CONFIGURATION
 # ============================================
-
-# Global settings
-update_rate_hz: 1.0
 
 # Ping Checker - ICMP to multiple targets
 ping_checker:
@@ -262,7 +251,6 @@ ping_checker:
   ping_count: 3
   timeout_ms: 1000
   packet_size: 56
-  log_throttle_sec: 10.0
   targets:
     - label: "router"       # Appears in topic: /connectivity/ping/router
       host: "192.168.1.1"
@@ -273,29 +261,14 @@ ping_checker:
       enabled: true
       interface: ""
 
-# RSS Monitor - Signal strength per interface
+# RSS Monitor - Single WiFi interface (KISS)
 rss_monitor:
   update_rate_hz: 1.0
-  interfaces:
-    - name: "wlan0"
-      type: "wifi"
-      label: "wifi"
-      enabled: true
-      method: "nl80211"       # Best: native netlink
-      modem_path: ""
-      at_device: ""
-      sysfs_path: ""
-    - name: "eth0"
-      type: "ethernet"
-      label: "wired"
-      enabled: true
-      method: "carrier_only"
-      modem_path: ""
-      at_device: ""
-      sysfs_path: ""
+  interface: "wlp3s0"       # Default WiFi interface (from YAML)
 
 # Connectivity Monitor - Aggregator (optional)
 connectivity_monitor:
+  update_rate_hz: 1.0
   enabled: true
 
 # Speedtest Server - On-demand bandwidth test
@@ -305,7 +278,15 @@ speedtest_server:
   timeout_sec: 120
 ```
 
-**No code changes needed to add interfaces** — just edit YAML.
+**Key Changes from v1:**
+- Single `interface` key instead of `interfaces` array
+- Removed `type`, `method`, `modem_path`, `at_device`, `sysfs_path` — netlink auto-detects
+- Cellular providers removed (not testable in container)
+
+---
+
+## 4. BUILDING FROM SCRATCH: DECISION LOG
+
 
 ---
 

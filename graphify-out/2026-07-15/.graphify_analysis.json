@@ -567,41 +567,8 @@
       "why": "connects across different repos/directories"
     }
   ],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `RssProvider` connect `RssProvider` to `RssMonitorNode`, `EthernetRssProviderCarrier`, `WifiRssProviderNl80211`?",
-      "why": "High betweenness centrality (0.088) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `RssConfig` connect `RssConfig` to `RssProvider`, `cellular_rss_provider.cpp`?",
-      "why": "High betweenness centrality (0.067) - this node is a cross-community bridge."
-    },
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `Complete Educational Reference from Beginner to Advanced`, `📚 TABLE OF CONTENTS`, `1.1 What is a ROS 2 Workspace?` to the rest of the system?",
-      "why": "176 weakly-connected nodes found - possible documentation gaps or missing edges."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `RssConfig` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.08064516129032258 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `RssProvider` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.08172043010752689 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `RssMonitorNode` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.08387096774193549 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `PingChecker::Impl` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.08505747126436781 - nodes in this community are weakly interconnected."
-    }
-  ]
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
 }

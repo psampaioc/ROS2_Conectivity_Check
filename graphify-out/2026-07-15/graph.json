@@ -11,8 +11,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "master_guide.md",
-      "id": "master_guide",
-      "community_name": "ROS 2 Workspace & conectivity_check Mastery Guide"
+      "id": "master_guide"
     },
     {
       "label": "ROS 2 Workspace & conectivity_check Mastery Guide",
@@ -22,8 +21,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "ros 2 workspace & conectivity_check mastery guide",
-      "id": "master_guide_ros_2_workspace_conectivity_check_mastery_guide",
-      "community_name": "ROS 2 Workspace & conectivity_check Mastery Guide"
+      "id": "master_guide_ros_2_workspace_conectivity_check_mastery_guide"
     },
     {
       "label": "Complete Educational Reference from Beginner to Advanced",
@@ -33,8 +31,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "complete educational reference from beginner to advanced",
-      "id": "master_guide_complete_educational_reference_from_beginner_to_advanced",
-      "community_name": "ROS 2 Workspace & conectivity_check Mastery Guide"
+      "id": "master_guide_complete_educational_reference_from_beginner_to_advanced"
     },
     {
       "label": "\ud83d\udcda TABLE OF CONTENTS",
@@ -44,8 +41,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "\ud83d\udcda table of contents",
-      "id": "master_guide_table_of_contents",
-      "community_name": "ROS 2 Workspace & conectivity_check Mastery Guide"
+      "id": "master_guide_table_of_contents"
     },
     {
       "label": "1. ROS 2 WORKSPACE FUNDAMENTALS",
@@ -55,8 +51,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "1. ros 2 workspace fundamentals",
-      "id": "master_guide_1_ros_2_workspace_fundamentals",
-      "community_name": "1. ROS 2 WORKSPACE FUNDAMENTALS"
+      "id": "master_guide_1_ros_2_workspace_fundamentals"
     },
     {
       "label": "1.1 What is a ROS 2 Workspace?",
@@ -66,8 +61,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "1.1 what is a ros 2 workspace?",
-      "id": "master_guide_1_1_what_is_a_ros_2_workspace",
-      "community_name": "1. ROS 2 WORKSPACE FUNDAMENTALS"
+      "id": "master_guide_1_1_what_is_a_ros_2_workspace"
     },
     {
       "label": "1.2 The Three Magic Directories",
@@ -77,8 +71,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "1.2 the three magic directories",
-      "id": "master_guide_1_2_the_three_magic_directories",
-      "community_name": "1. ROS 2 WORKSPACE FUNDAMENTALS"
+      "id": "master_guide_1_2_the_three_magic_directories"
     },
     {
       "label": "1.3 The Build Flow",
@@ -88,8 +81,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "1.3 the build flow",
-      "id": "master_guide_1_3_the_build_flow",
-      "community_name": "1. ROS 2 WORKSPACE FUNDAMENTALS"
+      "id": "master_guide_1_3_the_build_flow"
     },
     {
       "label": "1.4 Why You See \"Duplicate\" Names",
@@ -99,8 +91,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "1.4 why you see \"duplicate\" names",
-      "id": "master_guide_1_4_why_you_see_duplicate_names",
-      "community_name": "1. ROS 2 WORKSPACE FUNDAMENTALS"
+      "id": "master_guide_1_4_why_you_see_duplicate_names"
     },
     {
       "label": "2. NAVAL-REX ROS2_WS DEEP DIVE",
@@ -110,8 +101,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": "2. naval-rex ros2_ws deep dive",
-      "id": "master_guide_2_naval_rex_ros2_ws_deep_dive",
-      "community_name": "2. NAVAL-REX ROS2_WS DEEP DIVE"
+      "id": "master_guide_2_naval_rex_ros2_ws_deep_dive"
     },
     {
       "label": "2.1 Actual Directory Tree (What You Have)",
@@ -121,8 +111,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": "2.1 actual directory tree (what you have)",
-      "id": "master_guide_2_1_actual_directory_tree_what_you_have",
-      "community_name": "2. NAVAL-REX ROS2_WS DEEP DIVE"
+      "id": "master_guide_2_1_actual_directory_tree_what_you_have"
     },
     {
       "label": "2.2 Two Packages, Different Purposes",
@@ -132,8 +121,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": "2.2 two packages, different purposes",
-      "id": "master_guide_2_2_two_packages_different_purposes",
-      "community_name": "2. NAVAL-REX ROS2_WS DEEP DIVE"
+      "id": "master_guide_2_2_two_packages_different_purposes"
     },
     {
       "label": "2.3 What's in `build/` and `install/` (For Curiosity)",
@@ -143,8 +131,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": "2.3 what's in `build/` and `install/` (for curiosity)",
-      "id": "master_guide_2_3_what_s_in_build_and_install_for_curiosity",
-      "community_name": "2. NAVAL-REX ROS2_WS DEEP DIVE"
+      "id": "master_guide_2_3_what_s_in_build_and_install_for_curiosity"
     },
     {
       "label": "3. CONECTIVITY_CHECK PROJECT ARCHITECTURE",
@@ -154,8 +141,7 @@
       "_origin": "ast",
       "community": 19,
       "norm_label": "3. conectivity_check project architecture",
-      "id": "master_guide_3_conectivity_check_project_architecture",
-      "community_name": "3. CONECTIVITY_CHECK PROJECT ARCHITECTURE"
+      "id": "master_guide_3_conectivity_check_project_architecture"
     },
     {
       "label": "3.1 High-Level Design: 4 Independent Nodes",
@@ -165,8 +151,7 @@
       "_origin": "ast",
       "community": 19,
       "norm_label": "3.1 high-level design: 4 independent nodes",
-      "id": "master_guide_3_1_high_level_design_4_independent_nodes",
-      "community_name": "3. CONECTIVITY_CHECK PROJECT ARCHITECTURE"
+      "id": "master_guide_3_1_high_level_design_4_independent_nodes"
     },
     {
       "label": "3.2 Message Definitions (The Contracts)",
@@ -176,8 +161,7 @@
       "_origin": "ast",
       "community": 19,
       "norm_label": "3.2 message definitions (the contracts)",
-      "id": "master_guide_3_2_message_definitions_the_contracts",
-      "community_name": "3. CONECTIVITY_CHECK PROJECT ARCHITECTURE"
+      "id": "master_guide_3_2_message_definitions_the_contracts"
     },
     {
       "label": "3.3 Polymorphic RSS Provider Factory (The Crown Jewel)",
@@ -187,8 +171,7 @@
       "_origin": "ast",
       "community": 19,
       "norm_label": "3.3 polymorphic rss provider factory (the crown jewel)",
-      "id": "master_guide_3_3_polymorphic_rss_provider_factory_the_crown_jewel",
-      "community_name": "3. CONECTIVITY_CHECK PROJECT ARCHITECTURE"
+      "id": "master_guide_3_3_polymorphic_rss_provider_factory_the_crown_jewel"
     },
     {
       "label": "3.4 Configuration-Driven (`config/connectivity.yaml`)",
@@ -198,8 +181,7 @@
       "_origin": "ast",
       "community": 19,
       "norm_label": "3.4 configuration-driven (`config/connectivity.yaml`)",
-      "id": "master_guide_3_4_configuration_driven_config_connectivity_yaml",
-      "community_name": "3. CONECTIVITY_CHECK PROJECT ARCHITECTURE"
+      "id": "master_guide_3_4_configuration_driven_config_connectivity_yaml"
     },
     {
       "label": "4. BUILDING FROM SCRATCH: DECISION LOG",
@@ -209,8 +191,7 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "4. building from scratch: decision log",
-      "id": "master_guide_4_building_from_scratch_decision_log",
-      "community_name": "4.1 Step-by-Step Creation Process"
+      "id": "master_guide_4_building_from_scratch_decision_log"
     },
     {
       "label": "4.1 Step-by-Step Creation Process",
@@ -220,8 +201,7 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "4.1 step-by-step creation process",
-      "id": "master_guide_4_1_step_by_step_creation_process",
-      "community_name": "4.1 Step-by-Step Creation Process"
+      "id": "master_guide_4_1_step_by_step_creation_process"
     },
     {
       "label": "Step 1: Create Workspace",
@@ -231,8 +211,7 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "step 1: create workspace",
-      "id": "master_guide_step_1_create_workspace",
-      "community_name": "4.1 Step-by-Step Creation Process"
+      "id": "master_guide_step_1_create_workspace"
     },
     {
       "label": "Step 2: Create Package Skeleton",
@@ -242,8 +221,7 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "step 2: create package skeleton",
-      "id": "master_guide_step_2_create_package_skeleton",
-      "community_name": "4.1 Step-by-Step Creation Process"
+      "id": "master_guide_step_2_create_package_skeleton"
     },
     {
       "label": "Step 3: Add Message Definitions",
@@ -253,8 +231,7 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "step 3: add message definitions",
-      "id": "master_guide_step_3_add_message_definitions",
-      "community_name": "4.1 Step-by-Step Creation Process"
+      "id": "master_guide_step_3_add_message_definitions"
     },
     {
       "label": "Step 4: Configure CMakeLists.txt for Messages",
@@ -264,8 +241,7 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "step 4: configure cmakelists.txt for messages",
-      "id": "master_guide_step_4_configure_cmakelists_txt_for_messages",
-      "community_name": "4.1 Step-by-Step Creation Process"
+      "id": "master_guide_step_4_configure_cmakelists_txt_for_messages"
     },
     {
       "label": "Step 5: Add Dependencies in package.xml",
@@ -275,8 +251,7 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "step 5: add dependencies in package.xml",
-      "id": "master_guide_step_5_add_dependencies_in_package_xml",
-      "community_name": "4.1 Step-by-Step Creation Process"
+      "id": "master_guide_step_5_add_dependencies_in_package_xml"
     },
     {
       "label": "Step 6: Write Node Code with Component Support",
@@ -286,8 +261,7 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "step 6: write node code with component support",
-      "id": "master_guide_step_6_write_node_code_with_component_support",
-      "community_name": "4.1 Step-by-Step Creation Process"
+      "id": "master_guide_step_6_write_node_code_with_component_support"
     },
     {
       "label": "Step 7: Use rosidl_target_interfaces (CRITICAL!)",
@@ -297,8 +271,7 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "step 7: use rosidl_target_interfaces (critical!)",
-      "id": "master_guide_step_7_use_rosidl_target_interfaces_critical",
-      "community_name": "4.1 Step-by-Step Creation Process"
+      "id": "master_guide_step_7_use_rosidl_target_interfaces_critical"
     },
     {
       "label": "5. FOLDER LAYOUT PHILOSOPHY",
@@ -308,8 +281,7 @@
       "_origin": "ast",
       "community": 23,
       "norm_label": "5. folder layout philosophy",
-      "id": "master_guide_5_folder_layout_philosophy",
-      "community_name": "5. FOLDER LAYOUT PHILOSOPHY"
+      "id": "master_guide_5_folder_layout_philosophy"
     },
     {
       "label": "5.1 Why This Structure?",
@@ -319,8 +291,7 @@
       "_origin": "ast",
       "community": 23,
       "norm_label": "5.1 why this structure?",
-      "id": "master_guide_5_1_why_this_structure",
-      "community_name": "5. FOLDER LAYOUT PHILOSOPHY"
+      "id": "master_guide_5_1_why_this_structure"
     },
     {
       "label": "5.2 Design Principles",
@@ -330,8 +301,7 @@
       "_origin": "ast",
       "community": 23,
       "norm_label": "5.2 design principles",
-      "id": "master_guide_5_2_design_principles",
-      "community_name": "5. FOLDER LAYOUT PHILOSOPHY"
+      "id": "master_guide_5_2_design_principles"
     },
     {
       "label": "5.3 CMakeLists.txt Hierarchy",
@@ -341,8 +311,7 @@
       "_origin": "ast",
       "community": 23,
       "norm_label": "5.3 cmakelists.txt hierarchy",
-      "id": "master_guide_5_3_cmakelists_txt_hierarchy",
-      "community_name": "5. FOLDER LAYOUT PHILOSOPHY"
+      "id": "master_guide_5_3_cmakelists_txt_hierarchy"
     },
     {
       "label": "6. WHAT'S REQUIRED VS OPTIONAL",
@@ -352,8 +321,7 @@
       "_origin": "ast",
       "community": 17,
       "norm_label": "6. what's required vs optional",
-      "id": "master_guide_6_what_s_required_vs_optional",
-      "community_name": "6. WHAT'S REQUIRED VS OPTIONAL"
+      "id": "master_guide_6_what_s_required_vs_optional"
     },
     {
       "label": "6.1 Required for ANY ROS 2 C++ Package",
@@ -363,8 +331,7 @@
       "_origin": "ast",
       "community": 17,
       "norm_label": "6.1 required for any ros 2 c++ package",
-      "id": "master_guide_6_1_required_for_any_ros_2_c_package",
-      "community_name": "6. WHAT'S REQUIRED VS OPTIONAL"
+      "id": "master_guide_6_1_required_for_any_ros_2_c_package"
     },
     {
       "label": "6.2 Required for Custom Messages",
@@ -374,8 +341,7 @@
       "_origin": "ast",
       "community": 17,
       "norm_label": "6.2 required for custom messages",
-      "id": "master_guide_6_2_required_for_custom_messages",
-      "community_name": "6. WHAT'S REQUIRED VS OPTIONAL"
+      "id": "master_guide_6_2_required_for_custom_messages"
     },
     {
       "label": "6.3 Required for This Project Specifically",
@@ -385,8 +351,7 @@
       "_origin": "ast",
       "community": 17,
       "norm_label": "6.3 required for this project specifically",
-      "id": "master_guide_6_3_required_for_this_project_specifically",
-      "community_name": "6. WHAT'S REQUIRED VS OPTIONAL"
+      "id": "master_guide_6_3_required_for_this_project_specifically"
     },
     {
       "label": "6.4 Optional But Recommended",
@@ -396,8 +361,7 @@
       "_origin": "ast",
       "community": 17,
       "norm_label": "6.4 optional but recommended",
-      "id": "master_guide_6_4_optional_but_recommended",
-      "community_name": "6. WHAT'S REQUIRED VS OPTIONAL"
+      "id": "master_guide_6_4_optional_but_recommended"
     },
     {
       "label": "6.5 What You Can Delete Safely",
@@ -407,8 +371,7 @@
       "_origin": "ast",
       "community": 17,
       "norm_label": "6.5 what you can delete safely",
-      "id": "master_guide_6_5_what_you_can_delete_safely",
-      "community_name": "6. WHAT'S REQUIRED VS OPTIONAL"
+      "id": "master_guide_6_5_what_you_can_delete_safely"
     },
     {
       "label": "7. HOW TO BUILD, RUN & TEST",
@@ -418,8 +381,7 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "7. how to build, run & test",
-      "id": "master_guide_7_how_to_build_run_test",
-      "community_name": "7. HOW TO BUILD, RUN & TEST"
+      "id": "master_guide_7_how_to_build_run_test"
     },
     {
       "label": "7.1 Prerequisites (One-Time Setup)",
@@ -429,8 +391,7 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "7.1 prerequisites (one-time setup)",
-      "id": "master_guide_7_1_prerequisites_one_time_setup",
-      "community_name": "7. HOW TO BUILD, RUN & TEST"
+      "id": "master_guide_7_1_prerequisites_one_time_setup"
     },
     {
       "label": "7.2 Start Build Container (Agent Way - Headless)",
@@ -440,8 +401,7 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "7.2 start build container (agent way - headless)",
-      "id": "master_guide_7_2_start_build_container_agent_way_headless",
-      "community_name": "7. HOW TO BUILD, RUN & TEST"
+      "id": "master_guide_7_2_start_build_container_agent_way_headless"
     },
     {
       "label": "7.3 Build Inside Container",
@@ -451,8 +411,7 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "7.3 build inside container",
-      "id": "master_guide_7_3_build_inside_container",
-      "community_name": "7. HOW TO BUILD, RUN & TEST"
+      "id": "master_guide_7_3_build_inside_container"
     },
     {
       "label": "7.4 Source & Run",
@@ -462,8 +421,7 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "7.4 source & run",
-      "id": "master_guide_7_4_source_run",
-      "community_name": "7. HOW TO BUILD, RUN & TEST"
+      "id": "master_guide_7_4_source_run"
     },
     {
       "label": "7.5 Verify It Works (In Another Terminal or &)",
@@ -473,8 +431,7 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "7.5 verify it works (in another terminal or &)",
-      "id": "master_guide_7_5_verify_it_works_in_another_terminal_or",
-      "community_name": "7. HOW TO BUILD, RUN & TEST"
+      "id": "master_guide_7_5_verify_it_works_in_another_terminal_or"
     },
     {
       "label": "7.6 Expected Output Example",
@@ -484,8 +441,7 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "7.6 expected output example",
-      "id": "master_guide_7_6_expected_output_example",
-      "community_name": "7. HOW TO BUILD, RUN & TEST"
+      "id": "master_guide_7_6_expected_output_example"
     },
     {
       "label": "7.7 Run Tests",
@@ -495,8 +451,7 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "7.7 run tests",
-      "id": "master_guide_7_7_run_tests",
-      "community_name": "7. HOW TO BUILD, RUN & TEST"
+      "id": "master_guide_7_7_run_tests"
     },
     {
       "label": "7.7 Cleanup (MANDATORY for Agent Containers)",
@@ -506,8 +461,7 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "7.7 cleanup (mandatory for agent containers)",
-      "id": "master_guide_7_7_cleanup_mandatory_for_agent_containers",
-      "community_name": "7. HOW TO BUILD, RUN & TEST"
+      "id": "master_guide_7_7_cleanup_mandatory_for_agent_containers"
     },
     {
       "label": "8. USING THIS IN PRODUCTION",
@@ -517,8 +471,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "8. using this in production",
-      "id": "master_guide_8_using_this_in_production",
-      "community_name": "8. USING THIS IN PRODUCTION"
+      "id": "master_guide_8_using_this_in_production"
     },
     {
       "label": "8.1 Docker Compose for Deployment",
@@ -528,8 +481,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "8.1 docker compose for deployment",
-      "id": "master_guide_8_1_docker_compose_for_deployment",
-      "community_name": "8. USING THIS IN PRODUCTION"
+      "id": "master_guide_8_1_docker_compose_for_deployment"
     },
     {
       "label": "8.2 Configuration for Production",
@@ -539,8 +491,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "8.2 configuration for production",
-      "id": "master_guide_8_2_configuration_for_production",
-      "community_name": "8. USING THIS IN PRODUCTION"
+      "id": "master_guide_8_2_configuration_for_production"
     },
     {
       "label": "8.3 Monitoring Integration",
@@ -550,8 +501,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "8.3 monitoring integration",
-      "id": "master_guide_8_3_monitoring_integration",
-      "community_name": "8. USING THIS IN PRODUCTION"
+      "id": "master_guide_8_3_monitoring_integration"
     },
     {
       "label": "8.4 Threshold-Based Alerting (Concept)",
@@ -561,8 +511,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "8.4 threshold-based alerting (concept)",
-      "id": "master_guide_8_4_threshold_based_alerting_concept",
-      "community_name": "8. USING THIS IN PRODUCTION"
+      "id": "master_guide_8_4_threshold_based_alerting_concept"
     },
     {
       "label": "9. COMMON PITFALLS & DEBUGGING",
@@ -572,8 +521,7 @@
       "_origin": "ast",
       "community": 24,
       "norm_label": "9. common pitfalls & debugging",
-      "id": "master_guide_9_common_pitfalls_debugging",
-      "community_name": "9. COMMON PITFALLS & DEBUGGING"
+      "id": "master_guide_9_common_pitfalls_debugging"
     },
     {
       "label": "9.1 Build Failures",
@@ -583,8 +531,7 @@
       "_origin": "ast",
       "community": 24,
       "norm_label": "9.1 build failures",
-      "id": "master_guide_9_1_build_failures",
-      "community_name": "9. COMMON PITFALLS & DEBUGGING"
+      "id": "master_guide_9_1_build_failures"
     },
     {
       "label": "9.2 Runtime Issues",
@@ -594,8 +541,7 @@
       "_origin": "ast",
       "community": 24,
       "norm_label": "9.2 runtime issues",
-      "id": "master_guide_9_2_runtime_issues",
-      "community_name": "9. COMMON PITFALLS & DEBUGGING"
+      "id": "master_guide_9_2_runtime_issues"
     },
     {
       "label": "9.3 Debugging Commands",
@@ -605,8 +551,7 @@
       "_origin": "ast",
       "community": 24,
       "norm_label": "9.3 debugging commands",
-      "id": "master_guide_9_3_debugging_commands",
-      "community_name": "9. COMMON PITFALLS & DEBUGGING"
+      "id": "master_guide_9_3_debugging_commands"
     },
     {
       "label": "10. CREATING YOUR OWN: TEMPLATE CHECKLIST",
@@ -616,8 +561,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "10. creating your own: template checklist",
-      "id": "master_guide_10_creating_your_own_template_checklist",
-      "community_name": "ROS 2 Workspace & conectivity_check Mastery Guide"
+      "id": "master_guide_10_creating_your_own_template_checklist"
     },
     {
       "label": "10.1 New Package Checklist",
@@ -627,8 +571,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "10.1 new package checklist",
-      "id": "master_guide_10_1_new_package_checklist",
-      "community_name": "ROS 2 Workspace & conectivity_check Mastery Guide"
+      "id": "master_guide_10_1_new_package_checklist"
     },
     {
       "label": "10.2 Architecture Decision Record (Template)",
@@ -638,8 +581,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "10.2 architecture decision record (template)",
-      "id": "master_guide_10_2_architecture_decision_record_template",
-      "community_name": "ROS 2 Workspace & conectivity_check Mastery Guide"
+      "id": "master_guide_10_2_architecture_decision_record_template"
     },
     {
       "label": "11. QUICK REFERENCE: FILE PURPOSE MAP",
@@ -649,8 +591,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "11. quick reference: file purpose map",
-      "id": "master_guide_11_quick_reference_file_purpose_map",
-      "community_name": "ROS 2 Workspace & conectivity_check Mastery Guide"
+      "id": "master_guide_11_quick_reference_file_purpose_map"
     },
     {
       "label": "12. FINAL WORDS",
@@ -660,8 +601,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": "12. final words",
-      "id": "master_guide_12_final_words",
-      "community_name": "12. FINAL WORDS"
+      "id": "master_guide_12_final_words"
     },
     {
       "label": "You Now Understand:",
@@ -671,8 +611,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": "you now understand:",
-      "id": "master_guide_you_now_understand",
-      "community_name": "12. FINAL WORDS"
+      "id": "master_guide_you_now_understand"
     },
     {
       "label": "Next Steps for Mastery:",
@@ -682,8 +621,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": "next steps for mastery:",
-      "id": "master_guide_next_steps_for_mastery",
-      "community_name": "12. FINAL WORDS"
+      "id": "master_guide_next_steps_for_mastery"
     },
     {
       "label": "The Golden Rule:",
@@ -693,8 +631,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": "the golden rule:",
-      "id": "master_guide_the_golden_rule",
-      "community_name": "12. FINAL WORDS"
+      "id": "master_guide_the_golden_rule"
     },
     {
       "label": "README_Gaphify.md",
@@ -704,8 +641,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "readme_gaphify.md",
-      "id": "readme_gaphify",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify"
     },
     {
       "label": "See it in action",
@@ -715,8 +651,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "see it in action",
-      "id": "readme_gaphify_see_it_in_action",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_see_it_in_action"
     },
     {
       "label": "What it does",
@@ -726,8 +661,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "what it does",
-      "id": "readme_gaphify_what_it_does",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_what_it_does"
     },
     {
       "label": "Benchmarks",
@@ -737,8 +671,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "benchmarks",
-      "id": "readme_gaphify_benchmarks",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_benchmarks"
     },
     {
       "label": "Prerequisites",
@@ -748,8 +681,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "prerequisites",
-      "id": "readme_gaphify_prerequisites",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_prerequisites"
     },
     {
       "label": "Install",
@@ -759,8 +691,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "install",
-      "id": "readme_gaphify_install",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_install"
     },
     {
       "label": "Make your assistant always use the graph",
@@ -770,8 +701,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "make your assistant always use the graph",
-      "id": "readme_gaphify_make_your_assistant_always_use_the_graph",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_make_your_assistant_always_use_the_graph"
     },
     {
       "label": "What's in the report",
@@ -781,8 +711,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "what's in the report",
-      "id": "readme_gaphify_what_s_in_the_report",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_what_s_in_the_report"
     },
     {
       "label": "What files it handles",
@@ -792,8 +721,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "what files it handles",
-      "id": "readme_gaphify_what_files_it_handles",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_what_files_it_handles"
     },
     {
       "label": "Common commands",
@@ -803,8 +731,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "common commands",
-      "id": "readme_gaphify_common_commands",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_common_commands"
     },
     {
       "label": "Ignoring files",
@@ -814,8 +741,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "ignoring files",
-      "id": "readme_gaphify_ignoring_files",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_ignoring_files"
     },
     {
       "label": "Team setup",
@@ -825,8 +751,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "team setup",
-      "id": "readme_gaphify_team_setup",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_team_setup"
     },
     {
       "label": "Using the graph directly",
@@ -836,8 +761,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "using the graph directly",
-      "id": "readme_gaphify_using_the_graph_directly",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_using_the_graph_directly"
     },
     {
       "label": "Shared HTTP server",
@@ -847,8 +771,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "shared http server",
-      "id": "readme_gaphify_shared_http_server",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_shared_http_server"
     },
     {
       "label": "Environment variables",
@@ -858,8 +781,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "environment variables",
-      "id": "readme_gaphify_environment_variables",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_environment_variables"
     },
     {
       "label": "Privacy",
@@ -869,8 +791,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "privacy",
-      "id": "readme_gaphify_privacy",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_privacy"
     },
     {
       "label": "Troubleshooting",
@@ -880,8 +801,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "troubleshooting",
-      "id": "readme_gaphify_troubleshooting",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_troubleshooting"
     },
     {
       "label": "Full command reference",
@@ -891,8 +811,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "full command reference",
-      "id": "readme_gaphify_full_command_reference",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_full_command_reference"
     },
     {
       "label": "Learn more",
@@ -902,8 +821,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "learn more",
-      "id": "readme_gaphify_learn_more",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_learn_more"
     },
     {
       "label": "Built on graphify: Penpax",
@@ -913,8 +831,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "built on graphify: penpax",
-      "id": "readme_gaphify_built_on_graphify_penpax",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_built_on_graphify_penpax"
     },
     {
       "label": "Development setup",
@@ -924,8 +841,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "development setup",
-      "id": "readme_gaphify_development_setup",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_development_setup"
     },
     {
       "label": "Running tests",
@@ -935,8 +851,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "running tests",
-      "id": "readme_gaphify_running_tests",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_running_tests"
     },
     {
       "label": "Git workflow",
@@ -946,8 +861,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "git workflow",
-      "id": "readme_gaphify_git_workflow",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_git_workflow"
     },
     {
       "label": "What to contribute",
@@ -957,8 +871,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "what to contribute",
-      "id": "readme_gaphify_what_to_contribute",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_what_to_contribute"
     },
     {
       "label": "Community and links",
@@ -968,8 +881,7 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "community and links",
-      "id": "readme_gaphify_community_and_links",
-      "community_name": "README_Gaphify.md"
+      "id": "readme_gaphify_community_and_links"
     },
     {
       "label": "connectivity_stack.launch.py",
@@ -979,8 +891,7 @@
       "_origin": "ast",
       "community": 25,
       "norm_label": "connectivity_stack.launch.py",
-      "id": "launch_connectivity_stack_launch",
-      "community_name": "connectivity_stack.launch.py"
+      "id": "launch_connectivity_stack_launch"
     },
     {
       "label": "generate_launch_description()",
@@ -990,8 +901,7 @@
       "_origin": "ast",
       "community": 25,
       "norm_label": "generate_launch_description()",
-      "id": "launch_connectivity_stack_launch_generate_launch_description",
-      "community_name": "connectivity_stack.launch.py"
+      "id": "launch_connectivity_stack_launch_generate_launch_description"
     },
     {
       "label": "Node",
@@ -1001,8 +911,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "node",
-      "id": "src_connectivity_monitor_main_cpp_node",
-      "community_name": "ConnectivityMonitorNode"
+      "id": "src_connectivity_monitor_main_cpp_node"
     },
     {
       "label": "NodeOptions",
@@ -1012,8 +921,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "nodeoptions",
-      "id": "src_connectivity_monitor_main_cpp_nodeoptions",
-      "community_name": "ConnectivityMonitorNode"
+      "id": "src_connectivity_monitor_main_cpp_nodeoptions"
     },
     {
       "label": "SharedPtr",
@@ -1023,8 +931,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "sharedptr",
-      "id": "src_connectivity_monitor_main_cpp_sharedptr",
-      "community_name": "ConnectivityMonitorNode"
+      "id": "src_connectivity_monitor_main_cpp_sharedptr"
     },
     {
       "label": "string",
@@ -1034,8 +941,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "string",
-      "id": "src_connectivity_monitor_main_cpp_string",
-      "community_name": "ConnectivityMonitorNode"
+      "id": "src_connectivity_monitor_main_cpp_string"
     },
     {
       "label": "ping_checker.cpp",
@@ -1045,8 +951,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "ping_checker.cpp",
-      "id": "src_ping_checker_ping_checker",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker"
     },
     {
       "label": "PingChecker::Impl",
@@ -1056,8 +961,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "pingchecker::impl",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl"
     },
     {
       "label": "SharedPtr",
@@ -1067,8 +971,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "sharedptr",
-      "id": "src_ping_checker_ping_checker_cpp_sharedptr",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_cpp_sharedptr"
     },
     {
       "label": "node",
@@ -1078,8 +981,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "node",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_node",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_node"
     },
     {
       "label": "PingConfig",
@@ -1089,8 +991,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "pingconfig",
-      "id": "pingconfig",
-      "community_name": "PingChecker::Impl"
+      "id": "pingconfig"
     },
     {
       "label": "config",
@@ -1100,8 +1001,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "config",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_config",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_config"
     },
     {
       "label": "vector",
@@ -1111,8 +1011,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "vector",
-      "id": "vector",
-      "community_name": "PingChecker::Impl"
+      "id": "vector"
     },
     {
       "label": "pubs",
@@ -1122,8 +1021,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "pubs",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_pubs",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_pubs"
     },
     {
       "label": "unordered_map",
@@ -1133,8 +1031,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "unordered_map",
-      "id": "unordered_map",
-      "community_name": "PingChecker::Impl"
+      "id": "unordered_map"
     },
     {
       "label": "string",
@@ -1144,8 +1041,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "string",
-      "id": "src_ping_checker_ping_checker_cpp_string",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_cpp_string"
     },
     {
       "label": "pub_map",
@@ -1155,8 +1051,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "pub_map",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_pub_map",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_pub_map"
     },
     {
       "label": "summary_pub",
@@ -1166,8 +1061,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "summary_pub",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_summary_pub",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_summary_pub"
     },
     {
       "label": "timer",
@@ -1177,8 +1071,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "timer",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_timer",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_timer"
     },
     {
       "label": "sock",
@@ -1188,8 +1081,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "sock",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_sock",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_sock"
     },
     {
       "label": "seq",
@@ -1199,8 +1091,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "seq",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_seq",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_seq"
     },
     {
       "label": "mt19937",
@@ -1210,8 +1101,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "mt19937",
-      "id": "mt19937",
-      "community_name": "PingChecker::Impl"
+      "id": "mt19937"
     },
     {
       "label": "rng",
@@ -1221,8 +1111,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "rng",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_rng",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_rng"
     },
     {
       "label": "time_point",
@@ -1232,8 +1121,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "time_point",
-      "id": "time_point",
-      "community_name": "PingChecker::Impl"
+      "id": "time_point"
     },
     {
       "label": "last_log",
@@ -1243,8 +1131,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "last_log",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_last_log",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_last_log"
     },
     {
       "label": ".Impl()",
@@ -1254,8 +1141,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".impl()",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_impl",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_impl"
     },
     {
       "label": ".init_socket()",
@@ -1265,8 +1151,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".init_socket()",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_init_socket",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_init_socket"
     },
     {
       "label": ".checksum()",
@@ -1276,8 +1161,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".checksum()",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_checksum",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_checksum"
     },
     {
       "label": ".ping_once()",
@@ -1287,8 +1171,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".ping_once()",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_ping_once",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_ping_once"
     },
     {
       "label": "PingTarget",
@@ -1298,8 +1181,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "pingtarget",
-      "id": "pingtarget",
-      "community_name": "PingChecker::Impl"
+      "id": "pingtarget"
     },
     {
       "label": "PingResult",
@@ -1309,8 +1191,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "pingresult",
-      "id": "pingresult",
-      "community_name": "PingChecker::Impl"
+      "id": "pingresult"
     },
     {
       "label": ".run_cycle()",
@@ -1320,8 +1201,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".run_cycle()",
-      "id": "src_ping_checker_ping_checker_pingchecker_impl_run_cycle",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_impl_run_cycle"
     },
     {
       "label": "PingChecker::PingChecker()",
@@ -1331,8 +1211,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "pingchecker::pingchecker()",
-      "id": "src_ping_checker_ping_checker_pingchecker_pingchecker",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_pingchecker"
     },
     {
       "label": "PingChecker::init()",
@@ -1342,8 +1221,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "pingchecker::init()",
-      "id": "src_ping_checker_ping_checker_pingchecker_init",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_init"
     },
     {
       "label": "PingChecker::spin_once()",
@@ -1353,8 +1231,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "pingchecker::spin_once()",
-      "id": "src_ping_checker_ping_checker_pingchecker_spin_once",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_spin_once"
     },
     {
       "label": "PingChecker::shutdown()",
@@ -1364,8 +1241,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "pingchecker::shutdown()",
-      "id": "src_ping_checker_ping_checker_pingchecker_shutdown",
-      "community_name": "PingChecker::Impl"
+      "id": "src_ping_checker_ping_checker_pingchecker_shutdown"
     },
     {
       "label": "PingCheckerNode",
@@ -1375,8 +1251,7 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "pingcheckernode",
-      "id": "src_ping_checker_ping_checker_pingcheckernode",
-      "community_name": "PingCheckerNode"
+      "id": "src_ping_checker_ping_checker_pingcheckernode"
     },
     {
       "label": "Node",
@@ -1386,8 +1261,7 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "node",
-      "id": "src_ping_checker_ping_checker_cpp_node",
-      "community_name": "PingCheckerNode"
+      "id": "src_ping_checker_ping_checker_cpp_node"
     },
     {
       "label": ".PingCheckerNode()",
@@ -1397,8 +1271,7 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": ".pingcheckernode()",
-      "id": "src_ping_checker_ping_checker_pingcheckernode_pingcheckernode",
-      "community_name": "PingCheckerNode"
+      "id": "src_ping_checker_ping_checker_pingcheckernode_pingcheckernode"
     },
     {
       "label": "NodeOptions",
@@ -1408,8 +1281,7 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "nodeoptions",
-      "id": "src_ping_checker_ping_checker_cpp_nodeoptions",
-      "community_name": "PingCheckerNode"
+      "id": "src_ping_checker_ping_checker_cpp_nodeoptions"
     },
     {
       "label": "unique_ptr",
@@ -1419,8 +1291,7 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "unique_ptr",
-      "id": "unique_ptr",
-      "community_name": "PingCheckerNode"
+      "id": "unique_ptr"
     },
     {
       "label": "PingChecker",
@@ -1430,8 +1301,7 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "pingchecker",
-      "id": "pingchecker",
-      "community_name": "PingCheckerNode"
+      "id": "pingchecker"
     },
     {
       "label": "checker_",
@@ -1441,8 +1311,7 @@
       "_origin": "ast",
       "community": 16,
       "norm_label": "checker_",
-      "id": "src_ping_checker_ping_checker_pingcheckernode_checker",
-      "community_name": "PingCheckerNode"
+      "id": "src_ping_checker_ping_checker_pingcheckernode_checker"
     },
     {
       "label": "string",
@@ -1452,8 +1321,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "string",
-      "id": "src_rss_monitor_rss_monitor_cpp_string",
-      "community_name": "RssMonitorNode"
+      "id": "src_rss_monitor_rss_monitor_cpp_string"
     },
     {
       "label": "Node",
@@ -1463,8 +1331,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "node",
-      "id": "src_rss_monitor_rss_monitor_cpp_node",
-      "community_name": "RssMonitorNode"
+      "id": "src_rss_monitor_rss_monitor_cpp_node"
     },
     {
       "label": "NodeOptions",
@@ -1474,8 +1341,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "nodeoptions",
-      "id": "src_rss_monitor_rss_monitor_cpp_nodeoptions",
-      "community_name": "RssMonitorNode"
+      "id": "src_rss_monitor_rss_monitor_cpp_nodeoptions"
     },
     {
       "label": "RssMeasurement",
@@ -1485,8 +1351,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "rssmeasurement",
-      "id": "rssmeasurement",
-      "community_name": "RssMonitorNode"
+      "id": "rssmeasurement"
     },
     {
       "label": "SharedPtr",
@@ -1496,8 +1361,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "sharedptr",
-      "id": "src_rss_monitor_rss_monitor_cpp_sharedptr",
-      "community_name": "RssMonitorNode"
+      "id": "src_rss_monitor_rss_monitor_cpp_sharedptr"
     },
     {
       "label": "cellular_rss_provider.hpp",
@@ -1507,7 +1371,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "cellular_rss_provider.hpp",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider"
     },
     {
@@ -1518,7 +1382,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "cellularrssproviderat",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderat"
     },
     {
@@ -1529,7 +1393,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".~cellularrssproviderat()",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_cellularrssproviderat"
     },
     {
@@ -1540,7 +1404,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "init",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_init"
     },
     {
@@ -1551,7 +1415,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "read_once",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_read_once"
     },
     {
@@ -1562,7 +1426,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "shutdown",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_shutdown"
     },
     {
@@ -1573,7 +1437,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "string",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_hpp_string"
     },
     {
@@ -1584,7 +1448,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "at_device_",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_at_device"
     },
     {
@@ -1595,7 +1459,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "fd_",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_fd"
     },
     {
@@ -1606,7 +1470,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "logger",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_hpp_logger"
     },
     {
@@ -1617,7 +1481,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "logger_",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_logger"
     },
     {
@@ -1639,7 +1503,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "cellularrssproviderqmi",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi"
     },
     {
@@ -1650,7 +1514,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".~cellularrssproviderqmi()",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi_cellularrssproviderqmi"
     },
     {
@@ -1661,7 +1525,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "init",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi_init"
     },
     {
@@ -1672,7 +1536,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "read_once",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi_read_once"
     },
     {
@@ -1683,7 +1547,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".shutdown()",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi_shutdown"
     },
     {
@@ -1694,7 +1558,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "qmi_device_",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi_qmi_device"
     },
     {
@@ -1705,7 +1569,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "logger_",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi_logger"
     },
     {
@@ -1727,7 +1591,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "genericrssprovidersysfs",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs"
     },
     {
@@ -1738,7 +1602,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": ".~genericrssprovidersysfs()",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs_genericrssprovidersysfs"
     },
     {
@@ -1749,7 +1613,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "init",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs_init"
     },
     {
@@ -1760,7 +1624,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "read_once",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs_read_once"
     },
     {
@@ -1771,7 +1635,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": ".shutdown()",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs_shutdown"
     },
     {
@@ -1782,7 +1646,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "string",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_hpp_string"
     },
     {
@@ -1793,7 +1657,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "sysfs_path_",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs_sysfs_path"
     },
     {
@@ -1804,7 +1668,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "logger",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_hpp_logger"
     },
     {
@@ -1815,7 +1679,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "logger_",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs_logger"
     },
     {
@@ -1826,7 +1690,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "ethernetrssprovidercarrier",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier"
     },
     {
@@ -1837,7 +1701,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": ".~ethernetrssprovidercarrier()",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier_ethernetrssprovidercarrier"
     },
     {
@@ -1848,7 +1712,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "init",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier_init"
     },
     {
@@ -1859,7 +1723,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "read_once",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier_read_once"
     },
     {
@@ -1870,7 +1734,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": ".shutdown()",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier_shutdown"
     },
     {
@@ -1881,7 +1745,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "iface_",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier_iface"
     },
     {
@@ -1892,7 +1756,7 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "logger_",
-      "community_name": "EthernetRssProviderCarrier",
+      "community_name": "RssProvider",
       "id": "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier_logger"
     },
     {
@@ -1903,7 +1767,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "ping_checker.hpp",
-      "community_name": "PingConfig",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_ping_checker"
     },
     {
@@ -2035,7 +1899,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "vector",
-      "community_name": "PingConfig",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_ping_checker_hpp_vector"
     },
     {
@@ -2068,7 +1932,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "pingchecker",
-      "community_name": "PingConfig",
+      "community_name": "PingChecker",
       "id": "include_conectivity_check_ping_checker_pingchecker"
     },
     {
@@ -2079,7 +1943,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "init",
-      "community_name": "PingConfig",
+      "community_name": "PingChecker",
       "id": "include_conectivity_check_ping_checker_pingchecker_init"
     },
     {
@@ -2090,7 +1954,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "spin_once",
-      "community_name": "PingConfig",
+      "community_name": "PingChecker",
       "id": "include_conectivity_check_ping_checker_pingchecker_spin_once"
     },
     {
@@ -2101,7 +1965,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "shutdown",
-      "community_name": "PingConfig",
+      "community_name": "PingChecker",
       "id": "include_conectivity_check_ping_checker_pingchecker_shutdown"
     },
     {
@@ -2112,7 +1976,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "unique_ptr",
-      "community_name": "PingConfig",
+      "community_name": "PingChecker",
       "id": "include_conectivity_check_ping_checker_hpp_unique_ptr"
     },
     {
@@ -2123,7 +1987,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "impl",
-      "community_name": "PingConfig",
+      "community_name": "PingChecker",
       "id": "impl"
     },
     {
@@ -2134,7 +1998,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "impl_",
-      "community_name": "PingConfig",
+      "community_name": "PingChecker",
       "id": "include_conectivity_check_ping_checker_pingchecker_impl"
     },
     {
@@ -2145,7 +2009,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "rss_monitor.hpp",
-      "community_name": "RssMonitorNode",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_rss_monitor"
     },
     {
@@ -2244,7 +2108,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "map",
-      "community_name": "RssMonitorNode",
+      "community_name": "CellularRssProviderAt",
       "id": "map"
     },
     {
@@ -2343,7 +2207,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "rss_provider.hpp",
-      "community_name": "RssProvider",
+      "community_name": "CellularRssProviderAt",
       "id": "include_conectivity_check_rss_provider"
     },
     {
@@ -2508,7 +2372,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "create",
-      "community_name": "RssProvider",
+      "community_name": "RssMonitorNode",
       "id": "include_conectivity_check_rss_provider_rssprovider_create"
     },
     {
@@ -2519,7 +2383,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "wifi_rss_provider.hpp",
-      "community_name": "RssProvider",
+      "community_name": "WifiRssProviderNl80211",
       "id": "include_conectivity_check_wifi_rss_provider"
     },
     {
@@ -2838,7 +2702,7 @@
       "_origin": "ast",
       "community": 27,
       "norm_label": "vector",
-      "community_name": "vector",
+      "community_name": "PingChecker::Impl",
       "id": "src_ping_checker_ping_checker_cpp_vector"
     },
     {
@@ -2849,7 +2713,7 @@
       "_origin": "ast",
       "community": 26,
       "norm_label": "unique_ptr",
-      "community_name": "unique_ptr",
+      "community_name": "PingChecker",
       "id": "src_ping_checker_ping_checker_cpp_unique_ptr"
     },
     {
@@ -2860,7 +2724,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "ping_checker_main.cpp",
-      "community_name": "PingConfig",
+      "community_name": "CellularRssProviderAt",
       "id": "src_ping_checker_ping_checker_main"
     },
     {
@@ -2871,7 +2735,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "load_ping_config()",
-      "community_name": "PingConfig",
+      "community_name": "CellularRssProviderAt",
       "id": "src_ping_checker_ping_checker_main_load_ping_config"
     },
     {
@@ -2882,7 +2746,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "string",
-      "community_name": "PingConfig",
+      "community_name": "CellularRssProviderAt",
       "id": "src_ping_checker_ping_checker_main_cpp_string"
     },
     {
@@ -2893,7 +2757,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "main()",
-      "community_name": "PingConfig",
+      "community_name": "CellularRssProviderAt",
       "id": "src_ping_checker_ping_checker_main_main"
     },
     {
@@ -3036,7 +2900,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "generic_rss_provider.cpp",
-      "community_name": "RssConfig",
+      "community_name": "generic_rss_provider.cpp",
       "id": "src_rss_monitor_generic_rss_provider"
     },
     {
@@ -3047,7 +2911,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "genericrssprovidersysfs::genericrssprovidersysfs()",
-      "community_name": "RssConfig",
+      "community_name": "generic_rss_provider.cpp",
       "id": "src_rss_monitor_generic_rss_provider_genericrssprovidersysfs_genericrssprovidersysfs"
     },
     {
@@ -3058,7 +2922,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "ethernetrssprovidercarrier::ethernetrssprovidercarrier()",
-      "community_name": "RssConfig",
+      "community_name": "generic_rss_provider.cpp",
       "id": "src_rss_monitor_generic_rss_provider_ethernetrssprovidercarrier_ethernetrssprovidercarrier"
     },
     {
@@ -3069,7 +2933,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "genericrssprovidersysfs::init()",
-      "community_name": "RssConfig",
+      "community_name": "generic_rss_provider.cpp",
       "id": "src_rss_monitor_generic_rss_provider_genericrssprovidersysfs_init"
     },
     {
@@ -3080,7 +2944,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "logger",
-      "community_name": "RssConfig",
+      "community_name": "generic_rss_provider.cpp",
       "id": "src_rss_monitor_generic_rss_provider_cpp_logger"
     },
     {
@@ -3091,7 +2955,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "genericrssprovidersysfs::read_once()",
-      "community_name": "RssConfig",
+      "community_name": "generic_rss_provider.cpp",
       "id": "src_rss_monitor_generic_rss_provider_genericrssprovidersysfs_read_once"
     },
     {
@@ -3102,7 +2966,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "rssmeasurement",
-      "community_name": "RssConfig",
+      "community_name": "generic_rss_provider.cpp",
       "id": "src_rss_monitor_generic_rss_provider_cpp_rssmeasurement"
     },
     {
@@ -3113,7 +2977,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "ethernetrssprovidercarrier::init()",
-      "community_name": "RssConfig",
+      "community_name": "generic_rss_provider.cpp",
       "id": "src_rss_monitor_generic_rss_provider_ethernetrssprovidercarrier_init"
     },
     {
@@ -3124,7 +2988,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "ethernetrssprovidercarrier::read_once()",
-      "community_name": "RssConfig",
+      "community_name": "generic_rss_provider.cpp",
       "id": "src_rss_monitor_generic_rss_provider_ethernetrssprovidercarrier_read_once"
     },
     {
@@ -3135,7 +2999,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "main()",
-      "community_name": "RssMonitorNode",
+      "community_name": "rss_monitor_main.cpp",
       "id": "src_rss_monitor_rss_monitor_main_main"
     },
     {
@@ -3661,10 +3525,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "main.cpp",
       "id": "src_connectivity_monitor_main",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": "main.cpp"
     },
     {
       "label": "ConnectivityMonitorNode",
@@ -3672,10 +3535,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "connectivitymonitornode",
       "id": "src_connectivity_monitor_main_connectivitymonitornode",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": "connectivitymonitornode"
     },
     {
       "label": ".ConnectivityMonitorNode()",
@@ -3683,10 +3545,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": ".connectivitymonitornode()",
       "id": "src_connectivity_monitor_main_connectivitymonitornode_connectivitymonitornode",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": ".connectivitymonitornode()"
     },
     {
       "label": ".ping_callback()",
@@ -3694,10 +3555,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L52",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": ".ping_callback()",
       "id": "src_connectivity_monitor_main_connectivitymonitornode_ping_callback",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": ".ping_callback()"
     },
     {
       "label": ".rss_callback()",
@@ -3705,10 +3565,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L57",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": ".rss_callback()",
       "id": "src_connectivity_monitor_main_connectivitymonitornode_rss_callback",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": ".rss_callback()"
     },
     {
       "label": ".db_ruler()",
@@ -3716,10 +3575,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L62",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": ".db_ruler()",
       "id": "src_connectivity_monitor_main_connectivitymonitornode_db_ruler",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": ".db_ruler()"
     },
     {
       "label": ".publish_summary()",
@@ -3727,10 +3585,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L72",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": ".publish_summary()",
       "id": "src_connectivity_monitor_main_connectivitymonitornode_publish_summary",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": ".publish_summary()"
     },
     {
       "label": "ping_sub_",
@@ -3738,10 +3595,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L112",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "ping_sub_",
       "id": "src_connectivity_monitor_main_connectivitymonitornode_ping_sub",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": "ping_sub_"
     },
     {
       "label": "rss_sub_",
@@ -3749,10 +3605,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L113",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "rss_sub_",
       "id": "src_connectivity_monitor_main_connectivitymonitornode_rss_sub",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": "rss_sub_"
     },
     {
       "label": "summary_pub_",
@@ -3760,10 +3615,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L114",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "summary_pub_",
       "id": "src_connectivity_monitor_main_connectivitymonitornode_summary_pub",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": "summary_pub_"
     },
     {
       "label": "timer_",
@@ -3771,10 +3625,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L115",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "timer_",
       "id": "src_connectivity_monitor_main_connectivitymonitornode_timer",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": "timer_"
     },
     {
       "label": "last_ping_",
@@ -3782,10 +3635,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L117",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "last_ping_",
       "id": "src_connectivity_monitor_main_connectivitymonitornode_last_ping",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": "last_ping_"
     },
     {
       "label": "last_rss_",
@@ -3793,10 +3645,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L118",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "last_rss_",
       "id": "src_connectivity_monitor_main_connectivitymonitornode_last_rss",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": "last_rss_"
     },
     {
       "label": "main()",
@@ -3804,10 +3655,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L123",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "main()",
       "id": "src_connectivity_monitor_main_main",
-      "community_name": "ConnectivityMonitorNode"
+      "community": 9,
+      "norm_label": "main()"
     },
     {
       "label": "rss_monitor.cpp",
@@ -3815,10 +3665,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "rss_monitor.cpp",
       "id": "src_rss_monitor_rss_monitor",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "rss_monitor.cpp"
     },
     {
       "label": "StationInfo",
@@ -3826,10 +3675,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "stationinfo",
       "id": "src_rss_monitor_rss_monitor_stationinfo",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "stationinfo"
     },
     {
       "label": "signal_dbm",
@@ -3837,10 +3685,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "signal_dbm",
       "id": "src_rss_monitor_rss_monitor_stationinfo_signal_dbm",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "signal_dbm"
     },
     {
       "label": "noise_dbm",
@@ -3848,10 +3695,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "noise_dbm",
       "id": "src_rss_monitor_rss_monitor_stationinfo_noise_dbm",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "noise_dbm"
     },
     {
       "label": "tx_bitrate_mbps",
@@ -3859,10 +3705,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "tx_bitrate_mbps",
       "id": "src_rss_monitor_rss_monitor_stationinfo_tx_bitrate_mbps",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "tx_bitrate_mbps"
     },
     {
       "label": "link_quality",
@@ -3870,10 +3715,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L46",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "link_quality",
       "id": "src_rss_monitor_rss_monitor_stationinfo_link_quality",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "link_quality"
     },
     {
       "label": "ssid",
@@ -3881,10 +3725,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "ssid",
       "id": "src_rss_monitor_rss_monitor_stationinfo_ssid",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "ssid"
     },
     {
       "label": "bssid",
@@ -3892,10 +3735,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L48",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "bssid",
       "id": "src_rss_monitor_rss_monitor_stationinfo_bssid",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "bssid"
     },
     {
       "label": "freq_mhz",
@@ -3903,10 +3745,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "freq_mhz",
       "id": "src_rss_monitor_rss_monitor_stationinfo_freq_mhz",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "freq_mhz"
     },
     {
       "label": "RssMonitorNode",
@@ -3914,10 +3755,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L52",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "rssmonitornode",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "rssmonitornode"
     },
     {
       "label": ".RssMonitorNode()",
@@ -3925,10 +3765,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L55",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": ".rssmonitornode()",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_rssmonitornode",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": ".rssmonitornode()"
     },
     {
       "label": ".load_config()",
@@ -3936,10 +3775,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L88",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": ".load_config()",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_load_config",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": ".load_config()"
     },
     {
       "label": ".init_netlink()",
@@ -3947,10 +3785,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L131",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": ".init_netlink()",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_init_netlink",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": ".init_netlink()"
     },
     {
       "label": ".timer_callback()",
@@ -3958,10 +3795,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L172",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": ".timer_callback()",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_timer_callback",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": ".timer_callback()"
     },
     {
       "label": ".read_rss_once()",
@@ -3969,10 +3805,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L196",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": ".read_rss_once()",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_read_rss_once",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": ".read_rss_once()"
     },
     {
       "label": ".station_handler()",
@@ -3980,10 +3815,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L248",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": ".station_handler()",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_station_handler",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": ".station_handler()"
     },
     {
       "label": ".parse_station_info()",
@@ -3991,10 +3825,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L255",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": ".parse_station_info()",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_parse_station_info",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": ".parse_station_info()"
     },
     {
       "label": "update_rate_hz_",
@@ -4002,10 +3835,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L306",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "update_rate_hz_",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_update_rate_hz",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "update_rate_hz_"
     },
     {
       "label": "iface_",
@@ -4013,10 +3845,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L307",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "iface_",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_iface",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "iface_"
     },
     {
       "label": "sock_",
@@ -4024,10 +3855,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L310",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "sock_",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_sock",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "sock_"
     },
     {
       "label": "nl80211_id_",
@@ -4035,10 +3865,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L311",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "nl80211_id_",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_nl80211_id",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "nl80211_id_"
     },
     {
       "label": "ifindex_",
@@ -4046,10 +3875,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L312",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "ifindex_",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_ifindex",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "ifindex_"
     },
     {
       "label": "summary_pub_",
@@ -4057,10 +3885,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L315",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "summary_pub_",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_summary_pub",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "summary_pub_"
     },
     {
       "label": "timer_",
@@ -4068,10 +3895,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L316",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "timer_",
       "id": "src_rss_monitor_rss_monitor_rssmonitornode_timer",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "timer_"
     },
     {
       "label": "main()",
@@ -4079,10 +3905,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L324",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "main()",
       "id": "src_rss_monitor_rss_monitor_main",
-      "community_name": "RssMonitorNode"
+      "community": 2,
+      "norm_label": "main()"
     }
   ],
   "links": [
@@ -4962,9 +4787,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_cpp_node"
+      "target": "src_connectivity_monitor_main_cpp_node",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -4973,9 +4798,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_cpp_nodeoptions"
+      "target": "src_connectivity_monitor_main_cpp_nodeoptions",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -4984,9 +4809,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L126",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_main",
-      "target": "src_connectivity_monitor_main_cpp_nodeoptions"
+      "target": "src_connectivity_monitor_main_cpp_nodeoptions",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -4995,9 +4820,9 @@
       "source_location": "L118",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_cpp_sharedptr"
+      "target": "src_connectivity_monitor_main_cpp_sharedptr",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5006,9 +4831,9 @@
       "source_location": "L52",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode_ping_callback",
-      "target": "src_connectivity_monitor_main_cpp_sharedptr"
+      "target": "src_connectivity_monitor_main_cpp_sharedptr",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5017,9 +4842,9 @@
       "source_location": "L57",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode_rss_callback",
-      "target": "src_connectivity_monitor_main_cpp_sharedptr"
+      "target": "src_connectivity_monitor_main_cpp_sharedptr",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5028,9 +4853,9 @@
       "source_location": "L62",
       "weight": 1.0,
       "context": "return_type",
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode_db_ruler",
-      "target": "src_connectivity_monitor_main_cpp_string"
+      "target": "src_connectivity_monitor_main_cpp_string",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5510,9 +5335,9 @@
       "source_location": "L307",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_cpp_string"
+      "target": "src_rss_monitor_rss_monitor_cpp_string",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5521,9 +5346,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode_load_config",
-      "target": "src_rss_monitor_rss_monitor_cpp_string"
+      "target": "src_rss_monitor_rss_monitor_cpp_string",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5532,9 +5357,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L287",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode_parse_station_info",
-      "target": "src_rss_monitor_rss_monitor_cpp_string"
+      "target": "src_rss_monitor_rss_monitor_cpp_string",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5543,9 +5368,9 @@
       "source_location": "L48",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_stationinfo",
-      "target": "src_rss_monitor_rss_monitor_cpp_string"
+      "target": "src_rss_monitor_rss_monitor_cpp_string",
+      "confidence_score": 1.0
     },
     {
       "relation": "inherits",
@@ -5553,9 +5378,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_cpp_node"
+      "target": "src_rss_monitor_rss_monitor_cpp_node",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5564,9 +5389,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L327",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_main",
-      "target": "src_rss_monitor_rss_monitor_cpp_nodeoptions"
+      "target": "src_rss_monitor_rss_monitor_cpp_nodeoptions",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5575,9 +5400,9 @@
       "source_location": "L55",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_cpp_nodeoptions"
+      "target": "src_rss_monitor_rss_monitor_cpp_nodeoptions",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5586,9 +5411,9 @@
       "source_location": "L196",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode_read_rss_once",
-      "target": "rssmeasurement"
+      "target": "rssmeasurement",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5597,9 +5422,9 @@
       "source_location": "L316",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_cpp_sharedptr"
+      "target": "src_rss_monitor_rss_monitor_cpp_sharedptr",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8221,9 +8046,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8231,9 +8056,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L123",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main",
-      "target": "src_connectivity_monitor_main_main"
+      "target": "src_connectivity_monitor_main_main",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8241,9 +8066,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode_connectivitymonitornode"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode_connectivitymonitornode",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8251,9 +8076,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L62",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode_db_ruler"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode_db_ruler",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8262,9 +8087,9 @@
       "source_location": "L117",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode_last_ping"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode_last_ping",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8273,9 +8098,9 @@
       "source_location": "L118",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode_last_rss"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode_last_rss",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8283,9 +8108,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode_ping_callback"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode_ping_callback",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8294,9 +8119,9 @@
       "source_location": "L112",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode_ping_sub"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode_ping_sub",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8304,9 +8129,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L72",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode_publish_summary"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode_publish_summary",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8314,9 +8139,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode_rss_callback"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode_rss_callback",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8325,9 +8150,9 @@
       "source_location": "L113",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode_rss_sub"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode_rss_sub",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8336,9 +8161,9 @@
       "source_location": "L114",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode_summary_pub"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode_summary_pub",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8347,9 +8172,9 @@
       "source_location": "L115",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode_timer"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode_timer",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8358,9 +8183,9 @@
       "source_file": "src/connectivity_monitor/main.cpp",
       "source_location": "L94",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_connectivity_monitor_main_connectivitymonitornode_publish_summary",
-      "target": "src_connectivity_monitor_main_connectivitymonitornode_db_ruler"
+      "target": "src_connectivity_monitor_main_connectivitymonitornode_db_ruler",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8368,9 +8193,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L324",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor",
-      "target": "src_rss_monitor_rss_monitor_main"
+      "target": "src_rss_monitor_rss_monitor_main",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8378,9 +8203,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8388,9 +8213,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor",
-      "target": "src_rss_monitor_rss_monitor_stationinfo"
+      "target": "src_rss_monitor_rss_monitor_stationinfo",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -8399,9 +8224,9 @@
       "source_location": "L255",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode_parse_station_info",
-      "target": "src_rss_monitor_rss_monitor_stationinfo"
+      "target": "src_rss_monitor_rss_monitor_stationinfo",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8410,9 +8235,9 @@
       "source_location": "L48",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_stationinfo",
-      "target": "src_rss_monitor_rss_monitor_stationinfo_bssid"
+      "target": "src_rss_monitor_rss_monitor_stationinfo_bssid",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8421,9 +8246,9 @@
       "source_location": "L49",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_stationinfo",
-      "target": "src_rss_monitor_rss_monitor_stationinfo_freq_mhz"
+      "target": "src_rss_monitor_rss_monitor_stationinfo_freq_mhz",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8432,9 +8257,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_stationinfo",
-      "target": "src_rss_monitor_rss_monitor_stationinfo_link_quality"
+      "target": "src_rss_monitor_rss_monitor_stationinfo_link_quality",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8443,9 +8268,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_stationinfo",
-      "target": "src_rss_monitor_rss_monitor_stationinfo_noise_dbm"
+      "target": "src_rss_monitor_rss_monitor_stationinfo_noise_dbm",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8454,9 +8279,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_stationinfo",
-      "target": "src_rss_monitor_rss_monitor_stationinfo_signal_dbm"
+      "target": "src_rss_monitor_rss_monitor_stationinfo_signal_dbm",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8465,9 +8290,9 @@
       "source_location": "L47",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_stationinfo",
-      "target": "src_rss_monitor_rss_monitor_stationinfo_ssid"
+      "target": "src_rss_monitor_rss_monitor_stationinfo_ssid",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8476,9 +8301,9 @@
       "source_location": "L45",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_stationinfo",
-      "target": "src_rss_monitor_rss_monitor_stationinfo_tx_bitrate_mbps"
+      "target": "src_rss_monitor_rss_monitor_stationinfo_tx_bitrate_mbps",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8487,9 +8312,9 @@
       "source_location": "L307",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_iface"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_iface",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8498,9 +8323,9 @@
       "source_location": "L312",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_ifindex"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_ifindex",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8508,9 +8333,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L131",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_init_netlink"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_init_netlink",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8518,9 +8343,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L88",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_load_config"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_load_config",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8529,9 +8354,9 @@
       "source_location": "L311",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_nl80211_id"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_nl80211_id",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8539,9 +8364,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L255",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_parse_station_info"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_parse_station_info",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8549,9 +8374,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L196",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_read_rss_once"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_read_rss_once",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8559,9 +8384,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L79",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_rssmonitornode"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_rssmonitornode",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8570,9 +8395,9 @@
       "source_location": "L310",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_sock"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_sock",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8580,9 +8405,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L248",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_station_handler"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_station_handler",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8591,9 +8416,9 @@
       "source_location": "L315",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_summary_pub"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_summary_pub",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8602,9 +8427,9 @@
       "source_location": "L316",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_timer"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_timer",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8612,9 +8437,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L172",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_timer_callback"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_timer_callback",
+      "confidence_score": 1.0
     },
     {
       "relation": "defines",
@@ -8623,9 +8448,9 @@
       "source_location": "L306",
       "weight": 1.0,
       "context": "field",
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_update_rate_hz"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_update_rate_hz",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8634,9 +8459,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L62",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_init_netlink"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_init_netlink",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8645,9 +8470,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode_rssmonitornode",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_load_config"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_load_config",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8656,9 +8481,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L178",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode_timer_callback",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_read_rss_once"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_read_rss_once",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8667,9 +8492,9 @@
       "source_file": "src/rss_monitor/rss_monitor.cpp",
       "source_location": "L251",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_rss_monitor_rss_monitor_rssmonitornode_station_handler",
-      "target": "src_rss_monitor_rss_monitor_rssmonitornode_parse_station_info"
+      "target": "src_rss_monitor_rss_monitor_rssmonitornode_parse_station_info",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
