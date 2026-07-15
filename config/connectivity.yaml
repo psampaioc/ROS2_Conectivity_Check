@@ -15,12 +15,7 @@ ping_checker:
 
 rss_monitor:
   update_rate_hz: 1.0
-  interfaces:
-    - name: "wlp3s0"
-      type: "wifi"
-      label: "main_wifi"
-      enabled: true
-      method: "nl80211"
+  interface: "wlp3s0"
 
 connectivity_monitor:
   update_rate_hz: 1.0
