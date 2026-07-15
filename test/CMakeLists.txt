@@ -10,8 +10,8 @@ if(BUILD_TESTING)
     builtin_interfaces
   )
   # Link against generated message typesupport for same-package messages
-  rosidl_target_interfaces(test_messages ${PROJECT_NAME} "rosidl_typesupport_cpp")
-  target_link_libraries(test_messages GTest::GTest GTest::Main)
+  rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+  target_link_libraries(test_messages ${cpp_typesupport_target} GTest::GTest GTest::Main)
 
   add_test(NAME test_messages COMMAND test_messages)
 endif()

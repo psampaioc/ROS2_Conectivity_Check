@@ -1,0 +1,92 @@
+{
+  "include/conectivity_check/cellular_rss_provider.hpp": {
+    "mtime": 1783687633.3512454,
+    "ast_hash": "61587de67bded00d9dbb397234c87be6",
+    "semantic_hash": "61587de67bded00d9dbb397234c87be6"
+  },
+  "include/conectivity_check/generic_rss_provider.hpp": {
+    "mtime": 1783687633.3514366,
+    "ast_hash": "9bf932b6d40c5e88d09d46b74166c9a8",
+    "semantic_hash": "9bf932b6d40c5e88d09d46b74166c9a8"
+  },
+  "include/conectivity_check/ping_checker.hpp": {
+    "mtime": 1783687633.3515832,
+    "ast_hash": "e2028a2913e7eee072589756ac96a1d7",
+    "semantic_hash": "e2028a2913e7eee072589756ac96a1d7"
+  },
+  "include/conectivity_check/rss_monitor.hpp": {
+    "mtime": 1783687633.3517292,
+    "ast_hash": "9a7a2dc6a037df720eb0a2f84d5650f7",
+    "semantic_hash": "9a7a2dc6a037df720eb0a2f84d5650f7"
+  },
+  "include/conectivity_check/rss_provider.hpp": {
+    "mtime": 1783687633.3518858,
+    "ast_hash": "2714ae44c161c7a5debe4a0d9a57297d",
+    "semantic_hash": "2714ae44c161c7a5debe4a0d9a57297d"
+  },
+  "include/conectivity_check/wifi_rss_provider.hpp": {
+    "mtime": 1783687633.3520534,
+    "ast_hash": "a96a34375695218f4b14c8a2c6695a5b",
+    "semantic_hash": "a96a34375695218f4b14c8a2c6695a5b"
+  },
+  "launch/connectivity_stack.launch.py": {
+    "mtime": 1783963919.0138397,
+    "ast_hash": "9cbdfaf97d2d7182fd055946c1c21943",
+    "semantic_hash": "9cbdfaf97d2d7182fd055946c1c21943"
+  },
+  "src/connectivity_monitor/main.cpp": {
+    "mtime": 1784039097.3834822,
+    "ast_hash": "a004adeaa4e87927de2ae9fd1855c5d8",
+    "semantic_hash": "a004adeaa4e87927de2ae9fd1855c5d8"
+  },
+  "src/ping_checker/ping_checker.cpp": {
+    "mtime": 1784036895.8066382,
+    "ast_hash": "2e0e870dae1427dd62ede0eb79db458a",
+    "semantic_hash": "2e0e870dae1427dd62ede0eb79db458a"
+  },
+  "src/ping_checker/ping_checker_main.cpp": {
+    "mtime": 1783687633.3529365,
+    "ast_hash": "326478a2135dbab8c00064d639326bb1",
+    "semantic_hash": "326478a2135dbab8c00064d639326bb1"
+  },
+  "src/rss_monitor/cellular_rss_provider.cpp": {
+    "mtime": 1783687633.3531544,
+    "ast_hash": "c1c7941311dfaff92a2537bf4ec80be2",
+    "semantic_hash": "c1c7941311dfaff92a2537bf4ec80be2"
+  },
+  "src/rss_monitor/generic_rss_provider.cpp": {
+    "mtime": 1783687633.3533306,
+    "ast_hash": "56a8fe2ae9be652b3fa5d30e58be62e2",
+    "semantic_hash": "56a8fe2ae9be652b3fa5d30e58be62e2"
+  },
+  "src/rss_monitor/rss_monitor.cpp": {
+    "mtime": 1783687633.3535562,
+    "ast_hash": "21a5ae978f6f33c04eaecbcb51ac0cd6",
+    "semantic_hash": "21a5ae978f6f33c04eaecbcb51ac0cd6"
+  },
+  "src/rss_monitor/rss_monitor_main.cpp": {
+    "mtime": 1783687633.3536808,
+    "ast_hash": "7cabc10964d8255ba3bb1676030d4e7b",
+    "semantic_hash": "7cabc10964d8255ba3bb1676030d4e7b"
+  },
+  "src/rss_monitor/rss_provider.cpp": {
+    "mtime": 1783687633.3538115,
+    "ast_hash": "957f0d979cea9f7c738516b7dda63feb",
+    "semantic_hash": "957f0d979cea9f7c738516b7dda63feb"
+  },
+  "src/rss_monitor/wifi_rss_provider.cpp": {
+    "mtime": 1783687633.3540611,
+    "ast_hash": "0851afe8542a468a2b88862933b08947",
+    "semantic_hash": "0851afe8542a468a2b88862933b08947"
+  },
+  "src/speedtest_server/speedtest_server.cpp": {
+    "mtime": 1783687633.354278,
+    "ast_hash": "8228c90757c3fe02ae20c00e73272b29",
+    "semantic_hash": "8228c90757c3fe02ae20c00e73272b29"
+  },
+  "test/test_messages.cpp": {
+    "mtime": 1783687633.3544583,
+    "ast_hash": "0780c5c4c8d8adfe202ec479e0aa2008",
+    "semantic_hash": "0780c5c4c8d8adfe202ec479e0aa2008"
+  }
+}

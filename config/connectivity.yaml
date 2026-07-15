@@ -1,91 +1,32 @@
-# ============================================
-# CONECTIVITY CHECK - CONFIGURAÇÃO CENTRAL
-# Edite aqui. Comente (#) o que não usar.
-# ============================================
-
-# --- Global ---
-global:
-  update_rate_hz: 1.0              # Frequência de todos os monitores
-  log_level: "INFO"
-  log_throttle_sec: 30.0
-
-# ============================================
-# PING CHECKER (Conectividade L3/L4)
-# ============================================
 ping_checker:
-  enabled: true
-  ping_count: 3                    # Pacotes por ciclo
-  timeout_ms: 1000                 # Timeout por pacote
-  packet_size: 56                  # Bytes
-
-  targets:                         # Lista de alvos para ping
-    - label: "edge"
-      host: "192.168.1.10"         # IP fixo Edge Station
-      # host: "edge-station.local" # Ou mDNS
-      enabled: true
-      interface: ""                # Vazio = rota default; ou "wlan0", "eth0" para forçar
-
+  update_rate_hz: 1.0
+  ping_count: 3
+  timeout_ms: 1000
+  packet_size: 56
+  targets:
     - label: "router"
-      host: "192.168.1.1"          # Gateway
+      host: "192.168.1.1"
       enabled: true
       interface: ""
-
     - label: "internet"
-      host: "8.8.8.8"              # Google DNS
-      # host: "1.1.1.1"            # Cloudflare
+      host: "8.8.8.8"
       enabled: true
       interface: ""
 
-    # EXEMPLO: Target extra (radio, sensor, etc.)
-    # - label: "radio_link"
-    #   host: "192.168.10.1"
-    #   enabled: false
-
-# ============================================
-# RSS MONITOR (Qualidade de Sinal L1/L2) — CORE
-# ============================================
 rss_monitor:
-  enabled: true
-
-  interfaces:                      # Interfaces para monitorar RSS
-    # --- Wi-Fi ---
-    - name: "wlan0"
+  update_rate_hz: 1.0
+  interfaces:
+    - name: "wlp3s0"
       type: "wifi"
       label: "main_wifi"
       enabled: true
-      method: "nl80211"            # "nl80211" (libnl), "iw" (subprocess), "proc" (/proc/net/wireless)
-      # method: "iw"               # Mais simples, usa `iw dev wlan0 link`
+      method: "nl80211"
 
-    # --- Celular 4G/5G (ModemManager) ---
-    - name: "wwan0"
-      type: "cellular"
-      label: "4g_modem"
-      enabled: true
-      method: "modemmanager"       # "modemmanager" (DBus), "at" (AT commands), "qmi" (qmicli)
-      modem_path: "/org/freedesktop/ModemManager1/Modem/0"
-      # method: "at"
-      # at_device: "/dev/ttyUSB2"
+connectivity_monitor:
+  update_rate_hz: 1.0
+  enabled: true
 
-    # --- Rádio Genérico / Outro (sysfs/driver-specific) ---
-    # - name: "radio0"
-    #   type: "generic"
-    #   label: "telemetry_radio"
-    #   enabled: false
-    #   method: "sysfs"
-    #   sysfs_path: "/sys/class/net/radio0/device/signal_strength"
-
-    # --- Ethernet (apenas link_up, sem RSS real) ---
-    - name: "eth0"
-      type: "ethernet"
-      label: "wired"
-      enabled: true
-      method: "carrier_only"       # Só reporta link_up=true/false
-
-# ============================================
-# SPEEDTEST SERVER (Sob Demanda)
-# ============================================
 speedtest_server:
   enabled: true
-  provider: "speedtest-cli"        # "speedtest-cli" ou "iperf3"
+  provider: "speedtest-cli"
   timeout_sec: 120
-  # preferred_server_id: ""

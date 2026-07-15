@@ -20,22 +20,18 @@ from launch_ros.substitutions import FindPackageShare
 
 
 def generate_launch_description():
-    config_arg = DeclareLaunchArgument(
-        'config_file',
-        default_value=PathJoinSubstitution([
-            FindPackageShare('conectivity_check'),
-            'config',
-            'connectivity.yaml'
-        ]),
-        description='Path to connectivity.yaml'
-    )
+    # Use get_package_share_directory equivalent for config file path
+    config_file = PathJoinSubstitution([
+        FindPackageShare('conectivity_check'),
+        'config',
+        'connectivity.yaml'
+    ])
 
     namespace_arg = DeclareLaunchArgument(
         'namespace', default_value='', description='Namespace'
     )
 
     return LaunchDescription([
-        config_arg,
         namespace_arg,
 
         GroupAction([
@@ -47,7 +43,7 @@ def generate_launch_description():
                 executable='ping_checker',
                 name='ping_checker',
                 output='screen',
-                parameters=[LaunchConfiguration('config_file')],
+                parameters=[{'config_file': config_file}],
             ),
 
             # RSS Monitor (CORE)
@@ -56,7 +52,7 @@ def generate_launch_description():
                 executable='rss_monitor',
                 name='rss_monitor',
                 output='screen',
-                parameters=[LaunchConfiguration('config_file')],
+                parameters=[{'config_file': config_file}],
             ),
 
             # Connectivity Monitor (Aggregator - optional)
@@ -65,7 +61,7 @@ def generate_launch_description():
                 executable='connectivity_monitor',
                 name='connectivity_monitor',
                 output='screen',
-                parameters=[LaunchConfiguration('config_file')],
+                parameters=[{'config_file': config_file}],
             ),
 
             # Speedtest Server
@@ -74,7 +70,7 @@ def generate_launch_description():
                 executable='speedtest_server',
                 name='speedtest_server',
                 output='screen',
-                parameters=[LaunchConfiguration('config_file')],
+                parameters=[{'config_file': config_file}],
             ),
         ]),
     ])

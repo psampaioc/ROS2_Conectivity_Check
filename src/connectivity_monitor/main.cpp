@@ -11,8 +11,12 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-#include "rclcpp/rclcpp.hpp"
-#include "rclcpp_components/register_node_macro.hpp"
+
+#include <rclcpp/rclcpp.hpp>
+#include <iomanip>
+#include <sstream>
+#include <chrono>
+#include <ctime>
 
 #include "conectivity_check/msg/ping_summary.hpp"
 #include "conectivity_check/msg/rss_summary.hpp"
@@ -41,7 +45,7 @@ public:
       std::chrono::seconds(1),
       std::bind(&ConnectivityMonitorNode::publish_summary, this));
 
-    RCLCPP_INFO(get_logger(), "Connectivity Monitor (aggregator) started");
+    RCLCPP_INFO(get_logger(), "Connectivity Monitor (KISS aggregator with dB ruler) started");
   }
 
 private:
@@ -55,35 +59,52 @@ private:
     last_rss_ = msg;
   }
 
+  std::string db_ruler(double rss_dbm)
+  {
+    if (rss_dbm <= -200) return "[===|----|----|----] -200 DISCONNECTED";
+    if (rss_dbm <= -100) return "[===|----|----|----] -100 CRITICAL";
+    if (rss_dbm <= -85)  return "[=====|---|----|----] -85  WEAK";
+    if (rss_dbm <= -70)  return "[=========|---|----] -70  FAIR";
+    if (rss_dbm <= -50)  return "[=============|----] -50  GOOD";
+    return "[==================] -30  EXCELLENT";
+  }
+
   void publish_summary()
   {
     msg::ConnectivitySummary summary;
     summary.stamp = now();
 
-    if (last_ping_) {
-      summary.ping_reachable_count = last_ping_->reachable_count;
-      summary.ping_total_count = last_ping_->results.size();
-      summary.ping_all_reachable = last_ping_->all_reachable;
-      summary.worst_ping_rtt_ms = last_ping_->worst_rtt_ms;
-      summary.worst_ping_label = last_ping_->worst_label;
-    }
+    std::ostringstream ss;
 
-    if (last_rss_) {
-      summary.best_rss_dbm = last_rss_->best_rss_dbm;
-      summary.worst_rss_dbm = last_rss_->worst_rss_dbm;
-      summary.best_interface = last_rss_->best_interface;
-      summary.worst_interface = last_rss_->worst_interface;
-      summary.active_interfaces = last_rss_->active_interfaces;
-      summary.any_wifi = last_rss_->any_wifi;
-      summary.any_cellular = last_rss_->any_cellular;
-    }
+    // PING: reachable/total
+    int ping_reachable = last_ping_ ? last_ping_->reachable_count : 0;
+    int ping_total = last_ping_ ? static_cast<int>(last_ping_->results.size()) : 0;
+    ss << "P: " << ping_reachable << "/" << ping_total << " | ";
 
-    // Overall health assessment
-    bool ping_ok = last_ping_ && last_ping_->all_reachable;
-    bool rss_ok = last_rss_ && last_rss_->active_interfaces > 0;
-    summary.connectivity_ok = ping_ok;
-    summary.signal_ok = rss_ok;
-    summary.overall_healthy = ping_ok && rss_ok;
+    // RSS: best RSS in dBm
+    std::string rss_str = "N/A";
+    double rss_dbm = -200.0;
+    if (last_rss_ && last_rss_->active_interfaces > 0) {
+      rss_dbm = last_rss_->best_rss_dbm;
+      rss_str = std::to_string(static_cast<int>(rss_dbm)) + "dBm";
+    }
+    ss << "RSS: " << rss_str << " | ";
+
+    // dB RULER (replaces HEALTHY/DEGRADED)
+    ss << "SCALE: " << db_ruler(rss_dbm) << " | ";
+
+    // TIME: unix timestamp + human readable hh:mm:ss
+    auto now_sec = summary.stamp.sec;
+    std::time_t time_t_now = static_cast<std::time_t>(now_sec);
+    std::tm tm_now{};
+    localtime_r(&time_t_now, &tm_now);
+    std::ostringstream time_ss;
+    time_ss << std::put_time(&tm_now, "%H:%M:%S");
+    ss << "T: " << now_sec << " (" << time_ss.str() << ")";
+
+    summary.summary = ss.str();
+    summary.healthy = (ping_reachable == ping_total && ping_total > 0 && rss_dbm > -100);
+    // healthy = all ping reachable AND rss not critical
 
     summary_pub_->publish(summary);
   }
@@ -98,8 +119,6 @@ private:
 };
 
 }  // namespace conectivity_check
-
-RCLCPP_COMPONENTS_REGISTER_NODE(conectivity_check::ConnectivityMonitorNode)
 
 int main(int argc, char ** argv)
 {

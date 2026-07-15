@@ -7,7 +7,8 @@ ament_target_dependencies(speedtest_server
   std_msgs
   builtin_interfaces
 )
-rosidl_target_interfaces(speedtest_server ${PROJECT_NAME} "rosidl_typesupport_cpp")
+rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+target_link_libraries(speedtest_server ${cpp_typesupport_target})
 
 install(TARGETS speedtest_server
   DESTINATION lib/${PROJECT_NAME}

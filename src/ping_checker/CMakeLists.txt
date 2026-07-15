@@ -11,8 +11,8 @@ ament_target_dependencies(ping_checker
   yaml-cpp
   rclcpp_components
 )
-rosidl_target_interfaces(ping_checker ${PROJECT_NAME} "rosidl_typesupport_cpp")
-target_link_libraries(ping_checker yaml-cpp)
+rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+target_link_libraries(ping_checker ${cpp_typesupport_target} yaml-cpp)
 
 install(TARGETS ping_checker
   DESTINATION lib/${PROJECT_NAME}

@@ -1,0 +1,450 @@
+{
+  "communities": {
+    "0": [
+      "include_conectivity_check_wifi_rss_provider",
+      "include_conectivity_check_wifi_rss_provider_hpp_logger",
+      "include_conectivity_check_wifi_rss_provider_hpp_string",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovideriw",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovideriw_iface",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovideriw_init",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovideriw_logger",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovideriw_read_once",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovideriw_shutdown",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovideriw_wifirssprovideriw",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211_iface",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211_ifindex",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211_init",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211_logger",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211_nl80211_id",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211_read_once",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211_shutdown",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211_sock",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211_station_handler",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211_wifirssprovidernl80211",
+      "include_conectivity_check_wifi_rss_provider_wifirssproviderproc",
+      "include_conectivity_check_wifi_rss_provider_wifirssproviderproc_iface",
+      "include_conectivity_check_wifi_rss_provider_wifirssproviderproc_init",
+      "include_conectivity_check_wifi_rss_provider_wifirssproviderproc_logger",
+      "include_conectivity_check_wifi_rss_provider_wifirssproviderproc_read_once",
+      "include_conectivity_check_wifi_rss_provider_wifirssproviderproc_shutdown",
+      "include_conectivity_check_wifi_rss_provider_wifirssproviderproc_wifirssproviderproc"
+    ],
+    "1": [
+      "mt19937",
+      "pingresult",
+      "src_ping_checker_ping_checker",
+      "src_ping_checker_ping_checker_cpp_sharedptr",
+      "src_ping_checker_ping_checker_cpp_string",
+      "src_ping_checker_ping_checker_cpp_vector",
+      "src_ping_checker_ping_checker_pingchecker_impl",
+      "src_ping_checker_ping_checker_pingchecker_impl_checksum",
+      "src_ping_checker_ping_checker_pingchecker_impl_config",
+      "src_ping_checker_ping_checker_pingchecker_impl_impl",
+      "src_ping_checker_ping_checker_pingchecker_impl_init_socket",
+      "src_ping_checker_ping_checker_pingchecker_impl_last_log",
+      "src_ping_checker_ping_checker_pingchecker_impl_node",
+      "src_ping_checker_ping_checker_pingchecker_impl_ping_once",
+      "src_ping_checker_ping_checker_pingchecker_impl_pub_map",
+      "src_ping_checker_ping_checker_pingchecker_impl_pubs",
+      "src_ping_checker_ping_checker_pingchecker_impl_rng",
+      "src_ping_checker_ping_checker_pingchecker_impl_run_cycle",
+      "src_ping_checker_ping_checker_pingchecker_impl_seq",
+      "src_ping_checker_ping_checker_pingchecker_impl_sock",
+      "src_ping_checker_ping_checker_pingchecker_impl_summary_pub",
+      "src_ping_checker_ping_checker_pingchecker_impl_timer",
+      "src_ping_checker_ping_checker_pingchecker_init",
+      "src_ping_checker_ping_checker_pingchecker_pingchecker",
+      "src_ping_checker_ping_checker_pingchecker_shutdown",
+      "src_ping_checker_ping_checker_pingchecker_spin_once",
+      "time_point",
+      "unordered_map"
+    ],
+    "2": [
+      "include_conectivity_check_cellular_rss_provider",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderat",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_at_device",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_cellularrssproviderat",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_fd",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_init",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_logger",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_read_once",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_shutdown",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi_cellularrssproviderqmi",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi_init",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi_logger",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi_qmi_device",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi_read_once",
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi_shutdown",
+      "include_conectivity_check_cellular_rss_provider_hpp_logger",
+      "include_conectivity_check_cellular_rss_provider_hpp_string",
+      "include_conectivity_check_ping_checker",
+      "include_conectivity_check_ping_checker_hpp_vector",
+      "include_conectivity_check_rss_monitor",
+      "include_conectivity_check_rss_provider",
+      "map",
+      "src_ping_checker_ping_checker_main",
+      "src_ping_checker_ping_checker_main_cpp_string",
+      "src_ping_checker_ping_checker_main_load_ping_config",
+      "src_ping_checker_ping_checker_main_main"
+    ],
+    "3": [
+      "include_conectivity_check_generic_rss_provider",
+      "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier",
+      "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier_ethernetrssprovidercarrier",
+      "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier_iface",
+      "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier_init",
+      "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier_logger",
+      "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier_read_once",
+      "include_conectivity_check_generic_rss_provider_ethernetrssprovidercarrier_shutdown",
+      "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs",
+      "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs_genericrssprovidersysfs",
+      "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs_init",
+      "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs_logger",
+      "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs_read_once",
+      "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs_shutdown",
+      "include_conectivity_check_generic_rss_provider_genericrssprovidersysfs_sysfs_path",
+      "include_conectivity_check_generic_rss_provider_hpp_logger",
+      "include_conectivity_check_generic_rss_provider_hpp_string",
+      "include_conectivity_check_rss_provider_rssprovider",
+      "include_conectivity_check_rss_provider_rssprovider_init",
+      "include_conectivity_check_rss_provider_rssprovider_read_once",
+      "include_conectivity_check_rss_provider_rssprovider_rssprovider",
+      "include_conectivity_check_rss_provider_rssprovider_shutdown",
+      "src_rss_monitor_rss_provider",
+      "src_rss_monitor_rss_provider_cpp_string",
+      "src_rss_monitor_rss_provider_cpp_unique_ptr",
+      "src_rss_monitor_rss_provider_rssprovider_create"
+    ],
+    "4": [
+      "include_conectivity_check_rss_monitor_hpp_node",
+      "include_conectivity_check_rss_monitor_hpp_sharedptr",
+      "include_conectivity_check_rss_monitor_hpp_string",
+      "include_conectivity_check_rss_monitor_hpp_unique_ptr",
+      "include_conectivity_check_rss_monitor_hpp_vector",
+      "include_conectivity_check_rss_monitor_rssmonitornode",
+      "include_conectivity_check_rss_monitor_rssmonitornode_create_providers",
+      "include_conectivity_check_rss_monitor_rssmonitornode_interfaces",
+      "include_conectivity_check_rss_monitor_rssmonitornode_load_config",
+      "include_conectivity_check_rss_monitor_rssmonitornode_providers",
+      "include_conectivity_check_rss_monitor_rssmonitornode_publishers",
+      "include_conectivity_check_rss_monitor_rssmonitornode_summary_pub",
+      "include_conectivity_check_rss_monitor_rssmonitornode_timer",
+      "include_conectivity_check_rss_monitor_rssmonitornode_timer_callback",
+      "include_conectivity_check_rss_monitor_rssmonitornode_update_rate_hz",
+      "include_conectivity_check_rss_provider_rssprovider_create",
+      "interfaceconfig",
+      "src_rss_monitor_rss_monitor",
+      "src_rss_monitor_rss_monitor_cpp_nodeoptions",
+      "src_rss_monitor_rss_monitor_rssmonitornode_create_providers",
+      "src_rss_monitor_rss_monitor_rssmonitornode_load_config",
+      "src_rss_monitor_rss_monitor_rssmonitornode_rssmonitornode",
+      "src_rss_monitor_rss_monitor_rssmonitornode_timer_callback"
+    ],
+    "5": [
+      "include_conectivity_check_rss_provider_hpp_string",
+      "include_conectivity_check_rss_provider_rssconfig",
+      "include_conectivity_check_rss_provider_rssconfig_at_device",
+      "include_conectivity_check_rss_provider_rssconfig_interface_name",
+      "include_conectivity_check_rss_provider_rssconfig_label",
+      "include_conectivity_check_rss_provider_rssconfig_method",
+      "include_conectivity_check_rss_provider_rssconfig_modem_path",
+      "include_conectivity_check_rss_provider_rssconfig_sysfs_path",
+      "include_conectivity_check_rss_provider_rssconfig_type",
+      "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211_parse_station_info",
+      "src_rss_monitor_wifi_rss_provider",
+      "src_rss_monitor_wifi_rss_provider_cpp_logger",
+      "src_rss_monitor_wifi_rss_provider_cpp_rssmeasurement",
+      "src_rss_monitor_wifi_rss_provider_wifirssprovideriw_init",
+      "src_rss_monitor_wifi_rss_provider_wifirssprovideriw_read_once",
+      "src_rss_monitor_wifi_rss_provider_wifirssprovidernl80211_init",
+      "src_rss_monitor_wifi_rss_provider_wifirssprovidernl80211_parse_station_info",
+      "src_rss_monitor_wifi_rss_provider_wifirssprovidernl80211_read_once",
+      "src_rss_monitor_wifi_rss_provider_wifirssprovidernl80211_shutdown",
+      "src_rss_monitor_wifi_rss_provider_wifirssprovidernl80211_station_handler",
+      "src_rss_monitor_wifi_rss_provider_wifirssproviderproc_init",
+      "src_rss_monitor_wifi_rss_provider_wifirssproviderproc_read_once",
+      "stationinfo"
+    ],
+    "6": [
+      "request",
+      "response",
+      "shared_ptr",
+      "speedtestresult",
+      "src_speedtest_server_speedtest_server",
+      "src_speedtest_server_speedtest_server_cpp_node",
+      "src_speedtest_server_speedtest_server_cpp_sharedptr",
+      "src_speedtest_server_speedtest_server_cpp_string",
+      "src_speedtest_server_speedtest_server_main",
+      "src_speedtest_server_speedtest_server_speedtestservernode",
+      "src_speedtest_server_speedtest_server_speedtestservernode_handle_speedtest",
+      "src_speedtest_server_speedtest_server_speedtestservernode_parse_output",
+      "src_speedtest_server_speedtest_server_speedtestservernode_preferred_server",
+      "src_speedtest_server_speedtest_server_speedtestservernode_provider",
+      "src_speedtest_server_speedtest_server_speedtestservernode_result_pub",
+      "src_speedtest_server_speedtest_server_speedtestservernode_run_command",
+      "src_speedtest_server_speedtest_server_speedtestservernode_run_speedtest",
+      "src_speedtest_server_speedtest_server_speedtestservernode_service",
+      "src_speedtest_server_speedtest_server_speedtestservernode_speedtestservernode",
+      "src_speedtest_server_speedtest_server_speedtestservernode_timeout_sec"
+    ],
+    "7": [
+      "src_connectivity_monitor_main",
+      "src_connectivity_monitor_main_connectivitymonitornode",
+      "src_connectivity_monitor_main_connectivitymonitornode_connectivitymonitornode",
+      "src_connectivity_monitor_main_connectivitymonitornode_last_ping",
+      "src_connectivity_monitor_main_connectivitymonitornode_last_rss",
+      "src_connectivity_monitor_main_connectivitymonitornode_ping_callback",
+      "src_connectivity_monitor_main_connectivitymonitornode_ping_sub",
+      "src_connectivity_monitor_main_connectivitymonitornode_publish_summary",
+      "src_connectivity_monitor_main_connectivitymonitornode_rss_callback",
+      "src_connectivity_monitor_main_connectivitymonitornode_rss_sub",
+      "src_connectivity_monitor_main_connectivitymonitornode_summary_pub",
+      "src_connectivity_monitor_main_connectivitymonitornode_timer",
+      "src_connectivity_monitor_main_cpp_node",
+      "src_connectivity_monitor_main_cpp_nodeoptions",
+      "src_connectivity_monitor_main_cpp_sharedptr",
+      "src_connectivity_monitor_main_main"
+    ],
+    "8": [
+      "impl",
+      "include_conectivity_check_ping_checker_hpp_unique_ptr",
+      "include_conectivity_check_ping_checker_pingchecker",
+      "include_conectivity_check_ping_checker_pingchecker_impl",
+      "include_conectivity_check_ping_checker_pingchecker_init",
+      "include_conectivity_check_ping_checker_pingchecker_shutdown",
+      "include_conectivity_check_ping_checker_pingchecker_spin_once",
+      "src_ping_checker_ping_checker_cpp_node",
+      "src_ping_checker_ping_checker_cpp_nodeoptions",
+      "src_ping_checker_ping_checker_cpp_unique_ptr",
+      "src_ping_checker_ping_checker_pingcheckernode",
+      "src_ping_checker_ping_checker_pingcheckernode_checker",
+      "src_ping_checker_ping_checker_pingcheckernode_pingcheckernode"
+    ],
+    "9": [
+      "include_conectivity_check_cellular_rss_provider_cellularrssproviderat_send_at_command",
+      "src_rss_monitor_cellular_rss_provider",
+      "src_rss_monitor_cellular_rss_provider_cellularrssproviderat_cellularrssproviderat",
+      "src_rss_monitor_cellular_rss_provider_cellularrssproviderat_init",
+      "src_rss_monitor_cellular_rss_provider_cellularrssproviderat_read_once",
+      "src_rss_monitor_cellular_rss_provider_cellularrssproviderat_send_at_command",
+      "src_rss_monitor_cellular_rss_provider_cellularrssproviderat_shutdown",
+      "src_rss_monitor_cellular_rss_provider_cellularrssproviderqmi_cellularrssproviderqmi",
+      "src_rss_monitor_cellular_rss_provider_cellularrssproviderqmi_init",
+      "src_rss_monitor_cellular_rss_provider_cellularrssproviderqmi_read_once",
+      "src_rss_monitor_cellular_rss_provider_cpp_logger",
+      "src_rss_monitor_cellular_rss_provider_cpp_rssmeasurement",
+      "src_rss_monitor_cellular_rss_provider_cpp_string"
+    ],
+    "10": [
+      "include_conectivity_check_ping_checker_hpp_string",
+      "include_conectivity_check_ping_checker_pingconfig",
+      "include_conectivity_check_ping_checker_pingconfig_log_throttle_sec",
+      "include_conectivity_check_ping_checker_pingconfig_packet_size",
+      "include_conectivity_check_ping_checker_pingconfig_ping_count",
+      "include_conectivity_check_ping_checker_pingconfig_targets",
+      "include_conectivity_check_ping_checker_pingconfig_timeout_ms",
+      "include_conectivity_check_ping_checker_pingconfig_update_rate_hz",
+      "include_conectivity_check_ping_checker_pingtarget",
+      "include_conectivity_check_ping_checker_pingtarget_enabled",
+      "include_conectivity_check_ping_checker_pingtarget_host",
+      "include_conectivity_check_ping_checker_pingtarget_interface",
+      "include_conectivity_check_ping_checker_pingtarget_label"
+    ],
+    "11": [
+      "cellularfields",
+      "defaultconstruction",
+      "ethernetfields",
+      "genericfields",
+      "pingresulttest",
+      "rssmeasurementtest",
+      "test_test_messages",
+      "test_test_messages_main",
+      "test_test_messages_test",
+      "wififields"
+    ],
+    "12": [
+      "src_rss_monitor_generic_rss_provider",
+      "src_rss_monitor_generic_rss_provider_cpp_logger",
+      "src_rss_monitor_generic_rss_provider_cpp_rssmeasurement",
+      "src_rss_monitor_generic_rss_provider_ethernetrssprovidercarrier_ethernetrssprovidercarrier",
+      "src_rss_monitor_generic_rss_provider_ethernetrssprovidercarrier_init",
+      "src_rss_monitor_generic_rss_provider_ethernetrssprovidercarrier_read_once",
+      "src_rss_monitor_generic_rss_provider_genericrssprovidersysfs_genericrssprovidersysfs",
+      "src_rss_monitor_generic_rss_provider_genericrssprovidersysfs_init",
+      "src_rss_monitor_generic_rss_provider_genericrssprovidersysfs_read_once"
+    ],
+    "13": [
+      "launch_connectivity_stack_launch",
+      "launch_connectivity_stack_launch_generate_launch_description"
+    ],
+    "14": [
+      "src_rss_monitor_rss_monitor_main",
+      "src_rss_monitor_rss_monitor_main_main"
+    ]
+  },
+  "cohesion": {
+    "0": 0.08994708994708994,
+    "1": 0.08994708994708994,
+    "2": 0.09971509971509972,
+    "3": 0.09230769230769231,
+    "4": 0.09090909090909091,
+    "5": 0.11067193675889328,
+    "6": 0.12631578947368421,
+    "7": 0.15,
+    "8": 0.15384615384615385,
+    "9": 0.1794871794871795,
+    "10": 0.15384615384615385,
+    "11": 0.2,
+    "12": 0.2777777777777778,
+    "13": 1.0,
+    "14": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_ping_checker_ping_checker_pingchecker_impl",
+      "label": "PingChecker::Impl",
+      "degree": 23
+    },
+    {
+      "id": "include_conectivity_check_rss_monitor_rssmonitornode",
+      "label": "RssMonitorNode",
+      "degree": 18
+    },
+    {
+      "id": "include_conectivity_check_rss_provider_rssconfig",
+      "label": "RssConfig",
+      "degree": 16
+    },
+    {
+      "id": "include_conectivity_check_rss_provider_rssprovider",
+      "label": "RssProvider",
+      "degree": 15
+    },
+    {
+      "id": "include_conectivity_check_wifi_rss_provider_wifirssprovidernl80211",
+      "label": "WifiRssProviderNl80211",
+      "degree": 15
+    },
+    {
+      "id": "src_speedtest_server_speedtest_server_speedtestservernode",
+      "label": "SpeedtestServerNode",
+      "degree": 14
+    },
+    {
+      "id": "src_connectivity_monitor_main_connectivitymonitornode",
+      "label": "ConnectivityMonitorNode",
+      "degree": 13
+    },
+    {
+      "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderat",
+      "label": "CellularRssProviderAt",
+      "degree": 12
+    },
+    {
+      "id": "include_conectivity_check_ping_checker_pingconfig",
+      "label": "PingConfig",
+      "degree": 12
+    },
+    {
+      "id": "include_conectivity_check_cellular_rss_provider_cellularrssproviderqmi",
+      "label": "CellularRssProviderQmi",
+      "degree": 10
+    }
+  ],
+  "surprises": [
+    {
+      "source": "CellularRssProviderAt::read_once()",
+      "target": "send_at_command",
+      "source_files": [
+        "src/rss_monitor/cellular_rss_provider.cpp",
+        "include/conectivity_check/cellular_rss_provider.hpp"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "load_ping_config()",
+      "target": "PingConfig",
+      "source_files": [
+        "src/ping_checker/ping_checker_main.cpp",
+        "include/conectivity_check/ping_checker.hpp"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "PingChecker::Impl",
+      "target": "PingConfig",
+      "source_files": [
+        "src/ping_checker/ping_checker.cpp",
+        "include/conectivity_check/ping_checker.hpp"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "PingChecker::init()",
+      "target": "PingConfig",
+      "source_files": [
+        "src/ping_checker/ping_checker.cpp",
+        "include/conectivity_check/ping_checker.hpp"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "RssMonitorNode::RssMonitorNode()",
+      "target": "load_config",
+      "source_files": [
+        "src/rss_monitor/rss_monitor.cpp",
+        "include/conectivity_check/rss_monitor.hpp"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `RssProvider` connect `RssProvider` to `WifiRssProviderNl80211`, `CellularRssProviderAt`, `RssMonitorNode`?",
+      "why": "High betweenness centrality (0.227) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `PingConfig` connect `PingConfig` to `PingChecker::Impl`, `CellularRssProviderAt`?",
+      "why": "High betweenness centrality (0.181) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `RssConfig` connect `RssConfig` to `cellular_rss_provider.cpp`, `CellularRssProviderAt`, `generic_rss_provider.cpp`?",
+      "why": "High betweenness centrality (0.181) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `init`, `read_once`, `shutdown` to the rest of the system?",
+      "why": "88 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `WifiRssProviderNl80211` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08994708994708994 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `PingChecker::Impl` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08994708994708994 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `CellularRssProviderAt` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.09971509971509972 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

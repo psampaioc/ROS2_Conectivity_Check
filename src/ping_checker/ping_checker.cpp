@@ -43,10 +43,10 @@ struct PingChecker::Impl
   int sock = -1;
   uint16_t seq = 0;
   std::mt19937 rng{std::random_device{}()};
-  rclcpp::Time last_log;
+  std::chrono::steady_clock::time_point last_log;
 
   explicit Impl(rclcpp::Node::SharedPtr n)
-  : node(n) {}
+  : node(n), last_log(std::chrono::steady_clock::now()) {}
 
   bool init_socket()
   {
@@ -216,8 +216,9 @@ struct PingChecker::Impl
     summary_pub->publish(summary);
 
     // Throttled logging
-    auto now = node->now();
-    if ((now - last_log).seconds() > config.log_throttle_sec) {
+    auto now = std::chrono::steady_clock::now();
+    auto elapsed = std::chrono::duration<double>(now - last_log).count();
+    if (elapsed > config.log_throttle_sec) {
       RCLCPP_INFO(node->get_logger(), "Ping: %d/%zu reachable, worst: %s (%.1f ms)",
                   summary.reachable_count, results.size(),
                   summary.worst_label.c_str(), summary.worst_rtt_ms);

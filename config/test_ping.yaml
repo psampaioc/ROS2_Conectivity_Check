@@ -1,0 +1,12 @@
+# Minimal test config - only ping_checker
+ping_checker:
+  ros__parameters:
+    enabled: true
+    ping_count: 3
+    timeout_ms: 1000
+    packet_size: 56
+    targets:
+      - label: "edge"
+        host: "192.168.1.10"
+        enabled: true
+        interface: ""
