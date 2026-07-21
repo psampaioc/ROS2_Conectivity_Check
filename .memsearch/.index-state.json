@@ -1,0 +1,18 @@
+{
+  "collection": "ms_conectivity_ws_f6e5d32f",
+  "failed_files": [],
+  "indexed_chunks": 1,
+  "indexed_files": 1,
+  "last_completed_at": "2026-07-21T19:53:31.297116Z",
+  "last_started_at": "2026-07-21T19:53:29.536277Z",
+  "last_success_at": "2026-07-21T19:53:31.297116Z",
+  "milvus_uri": "~/.memsearch/milvus.db",
+  "operation": "index",
+  "paths": [
+    "/home/psampaioc/Workspaces/Naval-Rex/conectivity_ws/.memsearch/memory"
+  ],
+  "schema_version": 1,
+  "status": "ok",
+  "total_files": 1,
+  "updated_at": "2026-07-21T19:53:31.297116Z"
+}
