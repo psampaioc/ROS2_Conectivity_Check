@@ -31,9 +31,9 @@ private:
   // Config constants (compile-time, no params needed)
   static constexpr double UPDATE_RATE_HZ = 1.0;
   static constexpr const char * WIFI_INTERFACE = "wlp3s0";
-  static constexpr const char * ROUTER_IP = "192.168.1.1";
+  static constexpr const char * ROUTER_IP = "192.168.10.1";
   static constexpr int PING_TIMEOUT_MS = 1000;
-  static constexpr int PING_PACKET_SIZE = 56;
+  static constexpr int PING_PACKET_SIZE = 1472;  // MTU-sized payload (1500 - 20 IP - 8 ICMP)
   static constexpr int PING_COUNT_PER_CYCLE = 3;  // Multiple pings for packet loss %
 
   // Timer callback

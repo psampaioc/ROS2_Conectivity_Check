@@ -18,6 +18,7 @@
 #include <ctime>
 #include <iomanip>
 #include <sstream>
+#include <vector>
 
 namespace connectivity_check
 {
@@ -199,26 +200,27 @@ bool RssNode::ping_once(double & rtt_ms)
     return false;
   }
 
-  // Build ICMP packet
-  char packet[64 + sizeof(struct icmphdr)];
-  struct icmphdr * icmp = reinterpret_cast<struct icmphdr *>(packet);
+  // Build ICMP packet with dynamic buffer for MTU-sized payloads
+  const size_t packet_size = sizeof(struct icmphdr) + PING_PACKET_SIZE;
+  std::vector<char> packet(packet_size);
+  struct icmphdr * icmp = reinterpret_cast<struct icmphdr *>(packet.data());
   icmp->type = ICMP_ECHO;
   icmp->code = 0;
   icmp->un.echo.id = getpid() & 0xFFFF;
   icmp->un.echo.sequence = ping_seq_++;
   icmp->checksum = 0;
-  memset(packet + sizeof(struct icmphdr), 0xA5, PING_PACKET_SIZE);
-  icmp->checksum = checksum(packet, sizeof(packet));
+  memset(packet.data() + sizeof(struct icmphdr), 0xA5, PING_PACKET_SIZE);
+  icmp->checksum = checksum(packet.data(), packet.size());
 
   auto t1 = std::chrono::high_resolution_clock::now();
-  ssize_t sent = sendto(ping_sock_, packet, sizeof(packet), 0,
+  ssize_t sent = sendto(ping_sock_, packet.data(), packet.size(), 0,
                         reinterpret_cast<struct sockaddr *>(&dest), sizeof(dest));
   if (sent <= 0) {
     return false;
   }
 
-  // Receive
-  char recv_buf[1024];
+  // Receive - buffer large enough for ICMP response + potential IP header
+  char recv_buf[2048];
   struct sockaddr_in from{};
   socklen_t from_len = sizeof(from);
   ssize_t recv_len = recvfrom(ping_sock_, recv_buf, sizeof(recv_buf), 0,
@@ -226,6 +228,36 @@ bool RssNode::ping_once(double & rtt_ms)
   auto t2 = std::chrono::high_resolution_clock::now();
 
   if (recv_len <= 0) {
+    return false;
+  }
+
+  // Parse IP header to find ICMP header offset
+  struct iphdr * ip_hdr = reinterpret_cast<struct iphdr *>(recv_buf);
+  size_t ip_hdr_len = ip_hdr->ihl * 4;
+  if (recv_len < static_cast<ssize_t>(ip_hdr_len + sizeof(struct icmphdr))) {
+    return false;  // Packet too small
+  }
+
+  // Validate source IP matches destination
+  if (ip_hdr->saddr != dest.sin_addr.s_addr) {
+    return false;
+  }
+
+  // Get ICMP header
+  struct icmphdr * recv_icmp = reinterpret_cast<struct icmphdr *>(recv_buf + ip_hdr_len);
+
+  // Validate ICMP type is Echo Reply
+  if (recv_icmp->type != ICMP_ECHOREPLY) {
+    return false;
+  }
+
+  // Validate ICMP ID matches our sent packet
+  if (recv_icmp->un.echo.id != icmp->un.echo.id) {
+    return false;
+  }
+
+  // Validate ICMP sequence matches our sent packet
+  if (recv_icmp->un.echo.sequence != icmp->un.echo.sequence) {
     return false;
   }
 
