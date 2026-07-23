@@ -81,3 +81,5 @@ coverage/
 # Agent Configuration (Claude Code)
 .claude/
 CLAUDE.md
+.memsearch/
+graphify-out/
